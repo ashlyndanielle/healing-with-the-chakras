@@ -25,37 +25,37 @@ class ChakraNav extends Component {
         return (
             <div className="box">
                 <Link to='/' style={{ textDecoration: 'none' }}>
-                    <h1 className='landing'>ChakraNav</h1>
+                    <h1 className='nav-title'>ChakraNav</h1>
                 </Link>
                 <Link to='/crown'>
                     <img id='purple' src={LotusCrown} alt='crown chakra'/>
                 </Link>
-                Crown
+                <p>Crown</p>
                 <Link to='/thirdeye'>
                     <img id='indigo' src={LotusEye} alt='third eye chakra'/>
                     {/*<ChakraImage image={thirdEyeImg}/>*/}
                 </Link>
-                Third Eye
+                <p>Third Eye</p>
                 <Link to='/throat'>
                     <img id='blue' src={LotusThroat} alt='third eye chakra'/>
                 </Link>
-                Throat
+                <p>Throat</p>
                 <Link to='/heart'>
                     <img id='green' src={LotusHeart} alt='heart chakra'/>
                 </Link>
-                Heart
+                <p>Heart</p>
                 <Link to='/solarplexus'>
                     <img id='yellow' src={LotusSolar} alt='solar plexus chakra'/>
                 </Link>
-                Solar Plexus
+                <p>Solar Plexus</p>
                 <Link to='sacral'>
                     <img id='orange' src={LotusSacral} alt='sacral chakra'/>
                 </Link>
-                Sacral
+                <p>Sacral</p>
                 <Link to='/root'>
                     <img id='red' src={LotusRoot} alt='root chakra'/>
                 </Link>
-                Root
+                <p>Root</p>
             </div>
         );
     }
