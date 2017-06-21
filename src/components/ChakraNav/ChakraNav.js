@@ -1,12 +1,46 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
-import './ChakraNav.scss'
+import './ChakraNav.css'
+
+import crownImg from '../../Images/crown-chakra.png'
+import thirdEyeImg from '../../Images/third-eye-chakra.png'
+import throatImg from '../../Images/throat-chakra.png'
+import heartImg from '../../Images/heart-chakra.png'
+import solarPlexusImg from '../../Images/solar-plexus-chakra.png'
+import sacralImg from '../../Images/sacral-chakra.png'
+import rootImg from '../../Images/root-chakra.png'
+
+import ChakraImage from './ChakraImage/ChakraImage';
 
 class ChakraNav extends Component {
     render() {
         return (
-            <div>
-                ChakraNav
+            <div className="box">
+                <Link to='/'>
+                    <h1>ChakraNav</h1>
+                </Link>
+                <Link to='/crown'>
+                    <ChakraImage image={crownImg}/>
+                </Link>
+                <Link to='/thirdeye'>
+                    <ChakraImage image={thirdEyeImg}/>
+                </Link>
+                <Link to='/throat'>
+                    <img src={throatImg} alt='third eye chakra'/>
+                </Link>
+                <Link to='/heart'>
+                    <img src={heartImg} alt='heart chakra'/>
+                </Link>
+                <Link to='/solarplexus'>
+                    <img src={solarPlexusImg} alt='solar plexus chakra'/>
+                </Link>
+                <Link to='sacral'>
+                    <img src={sacralImg} alt='sacral chakra'/>
+                </Link>
+                <Link to='/root'>
+                    <img src={rootImg} alt='root chakra'/>
+                </Link>
             </div>
         );
     }

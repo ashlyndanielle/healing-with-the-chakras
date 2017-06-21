@@ -1,15 +1,13 @@
 import React, { Component } from 'react';
 
-import './LandingPage.scss'
-
-class LandingPage extends Component {
+class SolarPlexus extends Component {
     render() {
         return (
             <div>
-                <h1>Landing Page</h1>
+                <h1>Solar Plexus Component</h1>
             </div>
         );
     }
 }
 
-export default LandingPage;
+export default SolarPlexus;
