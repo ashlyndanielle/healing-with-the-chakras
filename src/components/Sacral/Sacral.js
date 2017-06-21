@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import './Sacral.css';
+import './Sacral.scss';
 
 class Sacral extends Component {
     render() {

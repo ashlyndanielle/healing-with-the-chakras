@@ -1,0 +1,26 @@
+@import './index.scss';
+@import './components/LandingPage/LandingPage.scss';
+@import './components/ChakraNav/ChakraNav.scss';
+@import './components/Crown/Crown.scss';
+@import './components/ThirdEye/ThirdEye.scss';
+@import './components/Throat/Throat.scss';
+@import './components/Heart/Heart.scss';
+@import './components/SolarPlexus/SolarPlexus.scss';
+@import './components/Sacral/Sacral.scss';
+@import './components/Root/Root.scss';
+
+
+.container {
+    display: flex;
+}
+
+.routes {
+    width: 85%;
+    height: 100vh;
+    display: inline-block;
+}
+
+.nav {
+    width: 15%;
+    display: inline-block;
+}

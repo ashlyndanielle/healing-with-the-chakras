@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
-import './ChakraNav.css'
+// import './ChakraNav.scss'
 
 // import crownImg from '../../Images/crown-chakra.png'
 // import thirdEyeImg from '../../Images/third-eye-chakra.png'

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import './ThirdEye.css';
+import './ThirdEye.scss';
 
 class ThirdEye extends Component {
     render() {

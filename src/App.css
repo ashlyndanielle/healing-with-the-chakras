@@ -1,3 +1,16 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif; }
+
+.landing-container {
+  background: url(./Images/landingBackground.jpg);
+  background-size: cover;
+  background-position: right bottom;
+  border: 1px solid red;
+  height: 100vh;
+  width: 100vw; }
+
 .box {
   box-sizing: border-box;
   padding-left: 10px;
@@ -32,3 +45,23 @@ img {
 p {
   color: white;
   font-family: 'Josefin Sans', sans-serif; }
+
+.crown-container {
+  background: black;
+  border: 1px solid orange;
+  height: 100vh; }
+
+.root-container {
+  background: red; }
+
+.container {
+  display: flex; }
+
+.routes {
+  width: 85%;
+  height: 100vh;
+  display: inline-block; }
+
+.nav {
+  width: 15%;
+  display: inline-block; }

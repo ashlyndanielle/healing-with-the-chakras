@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import './Throat.css';
+import './Throat.scss';
 
 class Throat extends Component {
     render() {

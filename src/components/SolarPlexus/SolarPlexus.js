@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import './SolarPlexus.css'
+import './SolarPlexus.scss'
 
 class SolarPlexus extends Component {
     render() {

@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 
-import './Root.css'
+import './Root.scss'
 
 class Root extends Component {
     render() {
         return (
-            <div>
+            <div className='root-container'>
                 <section className='yoga-video'></section>
                 <section className='about'>
                     <h1>Root Chakra</h1>

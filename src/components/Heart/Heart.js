@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import './Heart.css';
+import './Heart.scss';
 
 class Heart extends Component {
     render() {

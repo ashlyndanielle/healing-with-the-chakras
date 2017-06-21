@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 
 
-import router from '../router';
-import ChakraNav from './ChakraNav/ChakraNav';
+import router from './router';
+import ChakraNav from './components/ChakraNav/ChakraNav';
 
 import './App.css';
 
