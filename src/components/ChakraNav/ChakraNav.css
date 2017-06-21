@@ -1,8 +1,19 @@
 
 .box {
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    background-image: url('../../Images/background1.jpg');
+    /*background-size: cover;*/
 }
+
+.landing {
+    font-size: 18px;
+}
+
+img {
+    width: 100px;
+}
+

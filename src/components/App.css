@@ -1,8 +1,14 @@
+.container {
+    display: flex
+}
+
 .routes {
-    width: 85vw;
+    width: 85%;
+    height: 100vh;
     display: inline-block;
 }
 
 .nav {
+    width: 15%;
     display: inline-block;
 }

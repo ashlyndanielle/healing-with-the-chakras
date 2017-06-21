@@ -9,7 +9,7 @@ import './App.css';
 class App extends Component {
     render() {
         return (
-            <div>
+            <div className='container'>
                 <div className="routes">
                     { router }
                 </div>

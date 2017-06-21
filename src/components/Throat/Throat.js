@@ -4,7 +4,7 @@ class Throat extends Component {
     render() {
         return (
             <div>
-                <h1>Throat Component</h1>
+                <h1>Throat Chakra</h1>
             </div>
         );
     }

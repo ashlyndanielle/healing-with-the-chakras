@@ -17,14 +17,16 @@ class ChakraNav extends Component {
     render() {
         return (
             <div className="box">
-                <Link to='/'>
-                    <h1>ChakraNav</h1>
+                <Link to='/' style={{ textDecoration: 'none' }}>
+                    <h1 className='landing'>ChakraNav</h1>
                 </Link>
                 <Link to='/crown'>
-                    <ChakraImage image={crownImg}/>
+                    <img src={crownImg} alt='crown chakra'/>
+                    {/*<ChakraImage image={crownImg}/>*/}
                 </Link>
                 <Link to='/thirdeye'>
-                    <ChakraImage image={thirdEyeImg}/>
+                    <img src={thirdEyeImg} alt='third eye chakra'/>
+                    {/*<ChakraImage image={thirdEyeImg}/>*/}
                 </Link>
                 <Link to='/throat'>
                     <img src={throatImg} alt='third eye chakra'/>

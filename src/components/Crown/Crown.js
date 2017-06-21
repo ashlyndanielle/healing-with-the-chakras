@@ -1,12 +1,19 @@
 import React, { Component } from 'react';
 
-import './Crown.scss';
+import './Crown.css';
 
 class Crown extends Component {
     render() {
         return (
             <div>
-                <h1>Crown Component</h1>
+                <header>
+                    <h1>Crown Chakra</h1>
+                    <p className='description'>description here</p>
+                </header>
+                <section className='nutrition'></section>
+                <section className='yoga-poses'></section>
+                <section className='affirmation'></section>
+                <section className='meditation'></section>
             </div>
         );
     }
