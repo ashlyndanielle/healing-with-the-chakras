@@ -6,15 +6,20 @@ class Crown extends Component {
     render() {
         return (
             <div>
-                <header>
+                <section className='yoga-video'></section>
+                <section className='about'>
                     <h1>Crown Chakra</h1>
                     <h2>Sahasrara</h2>
                     <p className='description'>description here</p>
-                </header>
-                <section className='nutrition'></section>
-                <section className='yoga-poses'></section>
-                <section className='affirmation'></section>
-                <section className='meditation'></section>
+                </section>
+                <section className='guidance'>
+                    <div className='affirmation'></div>
+                    <div className='meditation'></div>
+                </section>
+                <section className='symptoms'>
+                    <div className='balanced'></div>
+                    <div className='unbalanced'></div>
+                </section>
             </div>
         );
     }
