@@ -5,7 +5,7 @@ import './Sacral.scss';
 class Sacral extends Component {
     render() {
         return (
-            <div>
+            <div className='sacral-container'>
                 <section className='yoga-video'></section>
                 <section className='about'>
                     <h1>Sacral Chakra</h1>

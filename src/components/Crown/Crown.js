@@ -8,9 +8,9 @@ class Crown extends Component {
             <div className='crown-container'>
                 <section className='yoga-video'></section>
                 <section className='about'>
-                    {/*<h1>Crown Chakra</h1>
+                    <h1>Crown Chakra</h1>
                     <h2>Sahasrara</h2>
-                    <p className='description'>description here</p>*/}
+                    <p className='description'>description here</p>
                 </section>
                 <section className='guidance'>
                     <div className='affirmation'></div>

@@ -5,7 +5,7 @@ import './Throat.scss';
 class Throat extends Component {
     render() {
         return (
-            <div>
+            <div className='throat-container'>
                 <section className='yoga-video'></section>
                 <section className='about'>
                     <h1>Throat Chakra</h1>

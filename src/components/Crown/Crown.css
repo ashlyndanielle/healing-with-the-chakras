@@ -1,4 +1,6 @@
 .crown-container {
-  background: black;
-  border: 1px solid orange;
+  background: #4C065C;
   height: 100vh; }
+  .crown-container h1 {
+    padding: 0;
+    margin: 0; }

@@ -10,7 +10,7 @@
 @import './components/Root/Root.scss';
 
 
-.container {
+.app-container {
     display: flex;
 }
 
@@ -20,7 +20,7 @@
     display: inline-block;
 }
 
-.nav {
+.app-nav {
     width: 15%;
     display: inline-block;
 }

@@ -5,7 +5,7 @@ import './Heart.scss';
 class Heart extends Component {
     render() {
         return (
-            <div>
+            <div className='heart-container'>
                 <section className='yoga-video'></section>
                 <section className='about'>
                     <h1>Heart Chakra</h1>

@@ -5,7 +5,7 @@ import './SolarPlexus.scss'
 class SolarPlexus extends Component {
     render() {
         return (
-            <div>
+            <div className='solar-plexus-container'>
                 <section className='yoga-video'></section>
                 <section className='about'>
                     <h1>Solar Plexus Chakra</h1>

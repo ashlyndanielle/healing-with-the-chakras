@@ -5,7 +5,7 @@ import './ThirdEye.scss';
 class ThirdEye extends Component {
     render() {
         return (
-            <div>
+            <div className='third-eye-container'>
                 <section className='yoga-video'></section>
                 <section className='about'>
                     <h1>Third Eye Chakra</h1>

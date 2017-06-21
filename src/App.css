@@ -7,11 +7,14 @@ body {
   background: url(./Images/landingBackground.jpg);
   background-size: cover;
   background-position: right bottom;
-  border: 1px solid red;
   height: 100vh;
-  width: 100vw; }
+  width: 100vw;
+  padding: 6px; }
+  .landing-container h1 {
+    padding: 0px;
+    margin: 0; }
 
-.box {
+.nav-container {
   box-sizing: border-box;
   padding-left: 10px;
   padding-right: 10px;
@@ -47,14 +50,55 @@ p {
   font-family: 'Josefin Sans', sans-serif; }
 
 .crown-container {
-  background: black;
-  border: 1px solid orange;
+  background: #4C065C;
   height: 100vh; }
+  .crown-container h1 {
+    padding: 0;
+    margin: 0; }
+
+.third-eye-container {
+  background: #141565;
+  height: 100vh; }
+  .third-eye-container h1 {
+    padding: 0;
+    margin: 0; }
+
+.throat-container {
+  background: #06A7E1;
+  height: 100vh; }
+  .throat-container h1 {
+    padding: 0;
+    margin: 0; }
+
+.heart-container {
+  background: #005221;
+  height: 100vh; }
+  .heart-container h1 {
+    padding: 0;
+    margin: 0; }
+
+.solar-plexus-container {
+  background: #DFBF16;
+  height: 100vh; }
+  .solar-plexus-container h1 {
+    padding: 0;
+    margin: 0; }
+
+.sacral-container {
+  background: #DA511F;
+  height: 100vh; }
+  .sacral-container h1 {
+    padding: 0;
+    margin: 0; }
 
 .root-container {
-  background: red; }
+  background: #8B0304;
+  height: 100vh; }
+  .root-container h1 {
+    padding: 0;
+    margin: 0; }
 
-.container {
+.app-container {
   display: flex; }
 
 .routes {
@@ -62,6 +106,6 @@ p {
   height: 100vh;
   display: inline-block; }
 
-.nav {
+.app-nav {
   width: 15%;
   display: inline-block; }

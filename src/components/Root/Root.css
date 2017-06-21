@@ -1,2 +1,6 @@
 .root-container {
-  background: red; }
+  background: #8B0304;
+  height: 100vh; }
+  .root-container h1 {
+    padding: 0;
+    margin: 0; }

@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
-// import './ChakraNav.scss'
 
 // import crownImg from '../../Images/crown-chakra.png'
 // import thirdEyeImg from '../../Images/third-eye-chakra.png'
@@ -18,12 +17,12 @@ import LotusSolar from '../../Images/Lotus-Line-Art-5.svg'
 import LotusSacral from '../../Images/Lotus-Line-Art-6.svg'
 import LotusRoot from '../../Images/Lotus-Line-Art-7.svg'
 
-import ChakraImage from './ChakraImage/ChakraImage';
+
 
 class ChakraNav extends Component {
     render() {
         return (
-            <div className="box">
+            <div className="nav-container">
                 <Link to='/' style={{ textDecoration: 'none' }}>
                     <h1 className='nav-title'>ChakraNav</h1>
                 </Link>
