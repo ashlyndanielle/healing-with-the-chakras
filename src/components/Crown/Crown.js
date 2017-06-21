@@ -8,6 +8,7 @@ class Crown extends Component {
             <div>
                 <header>
                     <h1>Crown Chakra</h1>
+                    <h2>Sahasrara</h2>
                     <p className='description'>description here</p>
                 </header>
                 <section className='nutrition'></section>
