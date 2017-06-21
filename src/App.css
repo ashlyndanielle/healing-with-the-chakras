@@ -16,12 +16,10 @@ body {
 
 .nav-container {
   box-sizing: border-box;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding: 10px 40px 10px 40px;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  background: transparent;
+  background: white;
   justify-content: space-between;
   height: 100%;
   /*border-width: 20px;
@@ -36,18 +34,15 @@ body {
       -o-linear-gradient(black, rgba(0, 0, 0, 0)) 1 100%;
     border-image:
       linear-gradient(to bottom, black, rgba(0, 0, 0, 0)) 1 100%;*/ }
-
-.nav-title {
-  font-size: 18px;
-  color: white;
-  font-family: 'Josefin Sans', sans-serif; }
-
-img {
-  width: 80px; }
-
-p {
-  color: white;
-  font-family: 'Josefin Sans', sans-serif; }
+  .nav-container .nav-title {
+    font-size: 18px;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif; }
+  .nav-container img {
+    width: 80px; }
+  .nav-container p {
+    color: white;
+    font-family: 'Josefin Sans', sans-serif; }
 
 .crown-container {
   background: #4C065C;
@@ -97,15 +92,3 @@ p {
   .root-container h1 {
     padding: 0;
     margin: 0; }
-
-.app-container {
-  display: flex; }
-
-.routes {
-  width: 85%;
-  height: 100vh;
-  display: inline-block; }
-
-.app-nav {
-  width: 15%;
-  display: inline-block; }

@@ -10,11 +10,11 @@ class App extends Component {
     render() {
         return (
             <div className='app-container'>
-                <div className="routes">
-                    { router }
-                </div>
                 <div className="app-nav">
                     <ChakraNav />
+                </div>
+                <div className="routes">
+                    { router }
                 </div>
             </div>
         );

@@ -2,12 +2,10 @@
 
 .nav-container {
     box-sizing: border-box;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 10px 40px 10px 40px;
     display: flex;
-    flex-direction: column;
     align-items: center;
-    background: transparent;
+    background: white;
     justify-content: space-between;
     height: 100%;
     /*border-width: 20px;
@@ -22,19 +20,19 @@
       -o-linear-gradient(black, rgba(0, 0, 0, 0)) 1 100%;
     border-image:
       linear-gradient(to bottom, black, rgba(0, 0, 0, 0)) 1 100%;*/
-}
+  .nav-title {
+      font-size: 18px;
+      color: white;
+      font-family: 'Josefin Sans', sans-serif;
+  }
 
-.nav-title {
-    font-size: 18px;
-    color: white;
-    font-family: 'Josefin Sans', sans-serif;
-}
+  img {
+      width: 80px;
+  }
 
-img {
-    width: 80px;
-}
+  p {
+      color: white;
+      font-family: 'Josefin Sans', sans-serif;
+  }
 
-p {
-    color: white;
-    font-family: 'Josefin Sans', sans-serif;
 }
