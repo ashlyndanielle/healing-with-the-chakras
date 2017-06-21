@@ -5,7 +5,7 @@ import './Crown.css';
 class Crown extends Component {
     render() {
         return (
-            <div>
+            <div className='container'>
                 <section className='yoga-video'></section>
                 <section className='about'>
                     <h1>Crown Chakra</h1>

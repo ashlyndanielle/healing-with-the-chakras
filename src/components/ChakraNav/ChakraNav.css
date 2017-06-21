@@ -12,9 +12,9 @@ body {
     background-color: black;
     justify-content: space-between;
     height: 100%;
-    border: solid palegoldenrod 20px;
+    /*border: solid palegoldenrod 20px;
     border-top: 0px;
-    border-bottom: 0px;
+    border-bottom: 0px;*/
 }
 
 .nav-title {

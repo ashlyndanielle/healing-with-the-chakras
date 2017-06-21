@@ -5,7 +5,7 @@ import './LandingPage.css'
 class LandingPage extends Component {
     render() {
         return (
-            <div>
+            <div className='container'>
                 <h1>The Seven Wheels of Energy</h1>
                 <section className='video'></section>
                 <section className='description'></section>
