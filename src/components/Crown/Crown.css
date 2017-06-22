@@ -1,28 +1,46 @@
 .crown-container {
-  height: 100vh;
-  font-family: "Lato", sans-serif; }
-  .crown-container .about {
+  height: 100vh; }
+  .crown-container .home-title {
     background: url(./Images/pageBackground.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    height: 81vh;
+    height: 55vh;
     width: 100%;
-    padding-top: 30px;
-    padding-left: 30px; }
-    .crown-container .about .about-words {
-      width: 15%;
-      height: 30%;
-      color: rgba(245, 246, 248, 0.8);
-      position: relative; }
-      .crown-container .about .about-words h1 {
-        padding: 0;
-        margin: 0;
-        text-transform: uppercase; }
+    padding-top: 30px; }
   .crown-container .description {
-    border-top: 20px solid #4C065C;
-    border-bottom: 20px solid #4C065C;
-    background: black; }
+    padding: 10px;
+    color: #f5f6f8;
+    background: black;
+    text-align: center; }
+    .crown-container .description h1 {
+      padding: 20px 0 0 0;
+      margin: 0;
+      text-transform: uppercase;
+      font-size: 28px;
+      letter-spacing: 10px; }
+    .crown-container .description h2 {
+      margin-top: 15px;
+      margin-bottom: 15px;
+      font-size: 18px;
+      letter-spacing: 7px;
+      font-family: "Lato", sans-serif; }
     .crown-container .description p {
-      padding: 0;
-      margin: 0; }
+      padding: 0 20px 20px 20px;
+      margin: 0;
+      font-family: "Lato", sans-serif;
+      line-height: 1.5em;
+      letter-spacing: 1px; }
+  .crown-container .symptoms {
+    padding: 10px;
+    color: #f5f6f8;
+    background: cornflowerblue;
+    text-align: center; }
+  .crown-container .guidance {
+    padding: 10px;
+    color: #f5f6f8;
+    background: forestgreen;
+    text-align: center; }
+  .crown-container .line-div {
+    width: 33%;
+    display: inline-block; }
