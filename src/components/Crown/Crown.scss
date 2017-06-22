@@ -51,6 +51,13 @@
         color: $about;
         background: cornflowerblue;
         text-align: center;
+        display: flex;
+        justify-content: space-around;
+        align-content: center;
+        
+        ul {
+            list-style-type: none;
+        }
     }
     .guidance {
         padding: 10px;

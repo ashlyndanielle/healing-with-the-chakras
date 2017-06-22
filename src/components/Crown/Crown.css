@@ -35,7 +35,12 @@
     padding: 10px;
     color: #f5f6f8;
     background: cornflowerblue;
-    text-align: center; }
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-content: center; }
+    .crown-container .symptoms ul {
+      list-style-type: none; }
   .crown-container .guidance {
     padding: 10px;
     color: #f5f6f8;
