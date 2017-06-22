@@ -2,13 +2,22 @@
 Everything
 ******************/
 .nav-container {
-  border-top: 29px solid black;
   /************
   chakra links
   ************/
   /****************
   landing-page link
   *****************/ }
+  .nav-container .chakras {
+    padding: 10px 0px;
+    margin: 0;
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    text-align: center;
+    background: url("./Images/blackG.png");
+    background-size: cover;
+    letter-spacing: 10px; }
   .nav-container .chakra-links {
     box-sizing: border-box;
     padding: 10px;
@@ -22,6 +31,8 @@ Everything
     background: #FDF5E6; }
     .nav-container .chakra-links img {
       width: 100px; }
+    .nav-container .chakra-links img:hover {
+      transform: scale(1.1); }
   .nav-container .landing-link {
     width: 100%; }
     .nav-container .landing-link h1 {

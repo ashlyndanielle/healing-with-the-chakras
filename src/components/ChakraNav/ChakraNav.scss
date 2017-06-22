@@ -1,11 +1,24 @@
 @import '../../globalVariables.scss';
 
 
+
+
 /*****************
 Everything
 ******************/
 .nav-container {
-  border-top: 29px solid black;
+  
+  .chakras {
+    padding: 10px 0px;
+    margin: 0;
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    text-align: center;
+    background: url('./Images/blackG.png');
+    background-size: cover;
+    letter-spacing: 10px;
+  }
   /************
   chakra links
   ************/
@@ -26,6 +39,11 @@ Everything
     img {
         width: 100px;
     }
+
+    img:hover {
+      transform: scale(1.1);
+    }
+
   }
 
   /****************

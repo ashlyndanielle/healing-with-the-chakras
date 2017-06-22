@@ -23,6 +23,7 @@ class ChakraNav extends Component {
     render() {
         return (
             <div className="nav-container">
+                <div className='chakras'>CHAKRAS</div>
                 <div className='chakra-links'>
                     <Link to='/crown'>
                         <img id='purple' src={LotusCrown} alt='crown chakra'/>

@@ -18,7 +18,8 @@
     text-align: center;
     opacity: 0.5; }
   .landing-container .chakra-box:hover {
-    opacity: 1; }
+    opacity: 1;
+    transform: scale(1.05); }
   .landing-container .root {
     background: url(./Images/rootGalaxy.jpg);
     background-size: cover; }
