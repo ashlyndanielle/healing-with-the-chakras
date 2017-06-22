@@ -1,5 +1,7 @@
 .root-container {
-  background: #8B0304;
+  background: url(./Images/meditation.jpg);
+  background-size: cover;
+  background-position: center;
   height: 100vh; }
   .root-container h1 {
     padding: 0;

@@ -9,6 +9,9 @@
 @import './components/Sacral/Sacral.scss';
 @import './components/Root/Root.scss';
 
+.app-container {
+    font-family: $font-primary;
+}
 
 // .app-container {
 //     display: flex;

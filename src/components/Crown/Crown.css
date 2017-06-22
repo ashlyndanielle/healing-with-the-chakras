@@ -1,5 +1,7 @@
 .crown-container {
-  background: #4C065C;
+  background: url(./Images/meditation.jpg);
+  background-size: cover;
+  background-position: center;
   height: 100vh; }
   .crown-container h1 {
     padding: 0;

@@ -1,5 +1,7 @@
 .sacral-container {
-  background: #DA511F;
+  background: url(./Images/meditation.jpg);
+  background-size: cover;
+  background-position: center;
   height: 100vh; }
   .sacral-container h1 {
     padding: 0;

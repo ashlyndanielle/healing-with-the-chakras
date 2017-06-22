@@ -1,14 +1,69 @@
 @import '../../globalVariables.scss';
 
 .landing-container {
-    background: url(./Images/landingBackground.jpg);
+    box-sizing: border-box;
+    background: black;
     background-size: cover;
     background-position: right bottom;
-    height: 100vh;
+    height: 81vh;
     width: 100vw;
     padding: 6px;
-    h1 {
-        padding: 0px;
-        margin: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+
+
+    color: white;
+
+    .chakra-box {
+        // border: 10px solid black;
+        padding-top: 10px;
+        margin: 7px;
+        height: 95%;
+        width: 18%;
+        text-align: center;
+        opacity: 0.5;
+    }
+
+    .chakra-box:hover {
+        opacity: 1;
+    }
+
+    .root {
+        background: url(./Images/rootGalaxy.jpg);
+        background-size: cover;
+    }
+
+    .sacral {
+
+        background: url(./Images/sacralGalaxy.jpg);
+        background-size: cover;
+        background-position: right;
+    }
+
+    .solar-plexus {
+
+        background: url(./Images/solarGalaxy.jpg);
+        background-size: cover;
+        background-position: right;
+    }
+
+    .heart {
+        background: url(./Images/heartGalaxy.jpg);
+        background-size: cover;
+    }
+
+    .throat {
+        background: url(./Images/throatGalaxy1.jpg);
+        background-size: cover;
+    }
+
+    .third-eye {
+        background: url(./Images/thirdEyeGalaxy.jpg);;
+    }
+
+    .crown {
+        background: url(./Images/crownGalaxy.png);
     }
 }
+

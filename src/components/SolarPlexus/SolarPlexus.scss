@@ -1,7 +1,9 @@
 @import '../../globalVariables.scss';
 
 .solar-plexus-container {
-    background: $solar;
+    background: url(./Images/meditation.jpg);
+    background-size: cover;
+    background-position: center;
     height: 100vh;
 
     h1 {

@@ -1,8 +1,10 @@
 @import '../../globalVariables.scss';
 
 .throat-container {
-    background: $throat;
     height: 100vh;
+    background: url(./Images/meditation.jpg);
+    background-size: cover;
+    background-position: center;
 
     h1{
         padding: 0;

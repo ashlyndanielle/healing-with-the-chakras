@@ -1,6 +1,8 @@
 .throat-container {
-  background: #06A7E1;
-  height: 100vh; }
+  height: 100vh;
+  background: url(./Images/meditation.jpg);
+  background-size: cover;
+  background-position: center; }
   .throat-container h1 {
     padding: 0;
     margin: 0; }

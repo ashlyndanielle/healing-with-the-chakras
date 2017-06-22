@@ -1,7 +1,9 @@
 @import '../../globalVariables.scss';
 
 .sacral-container {
-    background: $sacral;
+    background: url(./Images/meditation.jpg);
+    background-size: cover;
+    background-position: center;
     height: 100vh;
 
     h1 {

@@ -1,10 +1,42 @@
 .landing-container {
-  background: url(./Images/landingBackground.jpg);
+  box-sizing: border-box;
+  background: black;
   background-size: cover;
   background-position: right bottom;
-  height: 100vh;
+  height: 81vh;
   width: 100vw;
-  padding: 6px; }
-  .landing-container h1 {
-    padding: 0px;
-    margin: 0; }
+  padding: 6px;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  color: white; }
+  .landing-container .chakra-box {
+    padding-top: 10px;
+    margin: 7px;
+    height: 95%;
+    width: 18%;
+    text-align: center;
+    opacity: 0.5; }
+  .landing-container .chakra-box:hover {
+    opacity: 1; }
+  .landing-container .root {
+    background: url(./Images/rootGalaxy.jpg);
+    background-size: cover; }
+  .landing-container .sacral {
+    background: url(./Images/sacralGalaxy.jpg);
+    background-size: cover;
+    background-position: right; }
+  .landing-container .solar-plexus {
+    background: url(./Images/solarGalaxy.jpg);
+    background-size: cover;
+    background-position: right; }
+  .landing-container .heart {
+    background: url(./Images/heartGalaxy.jpg);
+    background-size: cover; }
+  .landing-container .throat {
+    background: url(./Images/throatGalaxy1.jpg);
+    background-size: cover; }
+  .landing-container .third-eye {
+    background: url(./Images/thirdEyeGalaxy.jpg); }
+  .landing-container .crown {
+    background: url(./Images/crownGalaxy.png); }

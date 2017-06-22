@@ -9,7 +9,7 @@ class Sacral extends Component {
                 <section className='yoga-video'></section>
                 <section className='about'>
                     <h1>Sacral Chakra</h1>
-                    <h2>Svadhishthana</h2>
+                    <h2>Svadhisthana</h2>
                     <p className='description'>description here</p>
                 </section>
                 <section className='guidance'>

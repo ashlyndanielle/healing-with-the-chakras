@@ -1,5 +1,7 @@
 .heart-container {
-  background: #005221;
+  background: url(./Images/meditation.jpg);
+  background-size: cover;
+  background-position: center;
   height: 100vh; }
   .heart-container h1 {
     padding: 0;

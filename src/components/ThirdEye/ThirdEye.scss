@@ -1,7 +1,9 @@
 @import '../../globalVariables.scss';
 
 .third-eye-container {
-    background: $eye;
+    background: url(./Images/meditation.jpg);
+    background-size: cover;
+    background-position: center;
     height: 100vh;
 
     h1 {

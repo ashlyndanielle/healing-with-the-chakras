@@ -1,5 +1,7 @@
 .third-eye-container {
-  background: #141565;
+  background: url(./Images/meditation.jpg);
+  background-size: cover;
+  background-position: center;
   height: 100vh; }
   .third-eye-container h1 {
     padding: 0;

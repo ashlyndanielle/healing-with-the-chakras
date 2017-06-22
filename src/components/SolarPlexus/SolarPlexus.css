@@ -1,5 +1,7 @@
 .solar-plexus-container {
-  background: #DFBF16;
+  background: url(./Images/meditation.jpg);
+  background-size: cover;
+  background-position: center;
   height: 100vh; }
   .solar-plexus-container h1 {
     padding: 0;
