@@ -2,7 +2,16 @@
   background: url(./Images/meditation.jpg);
   background-size: cover;
   background-position: center;
-  height: 100vh; }
+  height: 100vh;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between; }
   .heart-container h1 {
     padding: 0;
     margin: 0; }
+  .heart-container .yoga-video {
+    padding: 10px;
+    height: 97%;
+    width: 50%;
+    background: #005221;
+    opacity: 0.4; }

@@ -15,7 +15,7 @@ Everything
     font-size: 12px;
     font-weight: 700;
     text-align: center;
-    background: url("./Images/blackG.png");
+    background: black;
     background-size: cover;
     letter-spacing: 10px; }
   .nav-container .chakra-links {
@@ -41,6 +41,8 @@ Everything
       color: white;
       font-size: 12px;
       text-align: center;
-      background: url("./Images/blackG.png");
+      background: black;
       background-size: cover;
       letter-spacing: 10px; }
+    .nav-container .landing-link h1:hover {
+      letter-spacing: 20px; }

@@ -8,6 +8,7 @@ Everything
 ******************/
 .nav-container {
   
+  
   .chakras {
     padding: 10px 0px;
     margin: 0;
@@ -15,7 +16,7 @@ Everything
     font-size: 12px;
     font-weight: 700;
     text-align: center;
-    background: url('./Images/blackG.png');
+    background: black;
     background-size: cover;
     letter-spacing: 10px;
   }
@@ -61,22 +62,15 @@ Everything
       color: white;
       font-size: 12px;
       text-align: center;
-      background: url('./Images/blackG.png');
+      background: black;
       background-size: cover;
       letter-spacing: 10px;
     }
 
+    h1:hover {
+      letter-spacing: 20px;
+    }
+
   }
-
-
-
-
-
-
-
-
-
-
-
 
 }

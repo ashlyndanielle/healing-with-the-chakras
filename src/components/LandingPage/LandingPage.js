@@ -2,8 +2,10 @@ import React, { Component } from 'react';
 
 import './LandingPage.scss';
 
+
 class LandingPage extends Component {
     render() {
+         
         return (
             <div className='landing-container'>
                 <section className='root chakra-box'>MULADHARA</section>

@@ -6,7 +6,10 @@ import ChakraNav from './components/ChakraNav/ChakraNav';
 
 import './App.css';
 
-class App extends Component {
+// youtube api key below
+// const API_KEY = 'AIzaSyCdSkX0LWzH2SYS3y9kdsblq1ylYYiTvsY';
+
+class App extends Component {  
     render() {
         return (
             <div className='app-container'>

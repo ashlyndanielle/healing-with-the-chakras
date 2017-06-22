@@ -64,7 +64,7 @@ Everything
     font-size: 12px;
     font-weight: 700;
     text-align: center;
-    background: url("./Images/blackG.png");
+    background: black;
     background-size: cover;
     letter-spacing: 10px; }
   .nav-container .chakra-links {
@@ -90,72 +90,139 @@ Everything
       color: white;
       font-size: 12px;
       text-align: center;
-      background: url("./Images/blackG.png");
+      background: black;
       background-size: cover;
       letter-spacing: 10px; }
+    .nav-container .landing-link h1:hover {
+      letter-spacing: 20px; }
 
 .crown-container {
   background: url(./Images/meditation.jpg);
   background-size: cover;
   background-position: center;
-  height: 100vh; }
+  height: 100vh;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between; }
   .crown-container h1 {
     padding: 0;
     margin: 0; }
+  .crown-container .yoga-video {
+    padding: 10px;
+    height: 97%;
+    width: 50%;
+    background: #4C065C;
+    opacity: 0.4; }
+  .crown-container .test {
+    color: green; }
 
 .third-eye-container {
   background: url(./Images/meditation.jpg);
   background-size: cover;
   background-position: center;
-  height: 100vh; }
+  height: 100vh;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between; }
   .third-eye-container h1 {
     padding: 0;
     margin: 0; }
+  .third-eye-container .yoga-video {
+    padding: 10px;
+    height: 97%;
+    width: 50%;
+    background: #141565;
+    opacity: 0.4; }
 
 .throat-container {
   height: 100vh;
   background: url(./Images/meditation.jpg);
   background-size: cover;
-  background-position: center; }
+  background-position: center;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between; }
   .throat-container h1 {
     padding: 0;
     margin: 0; }
+  .throat-container .yoga-video {
+    padding: 10px;
+    height: 97%;
+    width: 50%;
+    background: #06A7E1;
+    opacity: 0.4; }
 
 .heart-container {
   background: url(./Images/meditation.jpg);
   background-size: cover;
   background-position: center;
-  height: 100vh; }
+  height: 100vh;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between; }
   .heart-container h1 {
     padding: 0;
     margin: 0; }
+  .heart-container .yoga-video {
+    padding: 10px;
+    height: 97%;
+    width: 50%;
+    background: #005221;
+    opacity: 0.4; }
 
 .solar-plexus-container {
   background: url(./Images/meditation.jpg);
   background-size: cover;
   background-position: center;
-  height: 100vh; }
+  height: 100vh;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between; }
   .solar-plexus-container h1 {
     padding: 0;
     margin: 0; }
+  .solar-plexus-container .yoga-video {
+    padding: 10px;
+    height: 97%;
+    width: 50%;
+    background: #DFBF16;
+    opacity: 0.4; }
 
 .sacral-container {
   background: url(./Images/meditation.jpg);
   background-size: cover;
   background-position: center;
-  height: 100vh; }
+  height: 100vh;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between; }
   .sacral-container h1 {
     padding: 0;
     margin: 0; }
+  .sacral-container .yoga-video {
+    padding: 10px;
+    height: 97%;
+    width: 50%;
+    background: #DA511F;
+    opacity: 0.4; }
 
 .root-container {
   background: url(./Images/meditation.jpg);
   background-size: cover;
   background-position: center;
-  height: 100vh; }
+  height: 100vh;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between; }
   .root-container h1 {
     padding: 0;
     margin: 0; }
+  .root-container .yoga-video {
+    padding: 10px;
+    height: 97%;
+    width: 50%;
+    background: #8B0304;
+    opacity: 0.4; }
 
 .app-container {
   font-family: "Josefin Sans", sans-serif; }

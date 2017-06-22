@@ -2,13 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
 
-// import crownImg from '../../Images/crown-chakra.png'
-// import thirdEyeImg from '../../Images/third-eye-chakra.png'
-// import throatImg from '../../Images/throat-chakra.png'
-// import heartImg from '../../Images/heart-chakra.png'
-// import solarPlexusImg from '../../Images/solar-plexus-chakra.png'
-// import sacralImg from '../../Images/sacral-chakra.png'
-// import rootImg from '../../Images/root-chakra.png'
+
 import LotusCrown from '../../Images/Lotus-Line-Art-1.svg';
 import LotusEye from '../../Images/Lotus-Line-Art-2.svg';
 import LotusThroat from '../../Images/Lotus-Line-Art-3.svg';
@@ -31,7 +25,6 @@ class ChakraNav extends Component {
                     
                     <Link to='/thirdeye'>
                         <img id='indigo' src={LotusEye} alt='third eye chakra'/>
-                        {/*<ChakraImage image={thirdEyeImg}/>*/}
                     </Link>
                     
                     <Link to='/throat'>
@@ -56,7 +49,7 @@ class ChakraNav extends Component {
                 </div>
                 <div className='landing-link'>
                     <Link to='/' style={{ textDecoration: 'none' }}>
-                        <h1>THE SEVEN WHEELS OF ENERGY</h1>
+                        <h1 className="seven-wheels">THE SEVEN WHEELS OF ENERGY</h1>
                     </Link>
                 </div>
 {/*            
