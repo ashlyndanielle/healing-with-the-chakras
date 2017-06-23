@@ -16,11 +16,13 @@ class Root extends Component {
         return (
             <div className='chakra-container'>
                 <section className='home-title'></section>
-                <Description
-                    subtitle='muladhara'
-                    title='root chakra'
-                    arr={descriptionArray}
-                />
+                <div className='root-gradient'>
+                    <Description
+                        subtitle='muladhara'
+                        title='root chakra'
+                        arr={descriptionArray}
+                    />
+                </div>
             </div>
         );
     }

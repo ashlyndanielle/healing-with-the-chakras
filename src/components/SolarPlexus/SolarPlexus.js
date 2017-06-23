@@ -15,11 +15,13 @@ class SolarPlexus extends Component {
         return (
             <div className='chakra-container'>
                 <section className='home-title'></section>
-                <Description 
-                    subtitle='manipura'
-                    title='solar plexus chakra'
-                    arr={ descriptionArray }
-                />
+                <div className='solar-gradient'>
+                    <Description 
+                        subtitle='manipura'
+                        title='solar plexus chakra'
+                        arr={ descriptionArray }
+                    />
+                </div>
             </div>
         );
     }

@@ -16,12 +16,13 @@ class Sacral extends Component {
         return (
             <div className='chakra-container'>
                 <section className='home-title'></section>
-                <Description 
-                    subtitle='svadhisthana'
-                    title='sacral chakra'
-                    arr={ descriptionArray }
-                />
-
+                <div className='sacral-gradient'>
+                    <Description 
+                        subtitle='svadhisthana'
+                        title='sacral chakra'
+                        arr={ descriptionArray }
+                    />
+                </div>
             </div>
         );
     }

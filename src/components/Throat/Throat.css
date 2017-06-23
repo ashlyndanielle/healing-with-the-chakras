@@ -1,9 +1,6 @@
 /************
 rainbow animation
 ************/
-/*******************
-crown animation
-*******************/
 .throat-gradient {
   background: linear-gradient(269deg, #012735, #026287, #40b7e5, #ade0f4, #ade0f4, #40b7e5, #026287, #012735);
   background-size: 1600% 1600%;

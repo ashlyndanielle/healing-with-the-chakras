@@ -16,13 +16,13 @@ class Heart extends Component {
         return (
             <div className='chakra-container'>
                 <section className='home-title'></section>
-
-                <Description 
-                    subtitle='anahata'
-                    title='heart chakra'
-                    arr={descriptionArray}
-                />
-
+                <div className='heart-gradient'>
+                    <Description 
+                        subtitle='anahata'
+                        title='heart chakra'
+                        arr={descriptionArray}
+                    />
+                </div>
             </div>
         );
     }

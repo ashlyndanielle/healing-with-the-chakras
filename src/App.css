@@ -6,9 +6,6 @@ body {
 /************
 rainbow animation
 ************/
-/*******************
-crown animation
-*******************/
 .description {
   padding: 10px;
   color: #f5f6f8;
@@ -40,9 +37,6 @@ crown animation
 /************
 rainbow animation
 ************/
-/*******************
-crown animation
-*******************/
 .landing-container {
   box-sizing: border-box;
   background: black;
@@ -90,9 +84,6 @@ crown animation
 /************
 rainbow animation
 ************/
-/*******************
-crown animation
-*******************/
 /*****************
 Everything
 ******************/
@@ -145,11 +136,38 @@ Everything
 /************
 rainbow animation
 ************/
-/*******************
-crown animation
-*******************/
 .chakra-container {
   height: 100vh; }
+  .chakra-container .crown-gradient {
+    background: linear-gradient(269deg, #000001, #23012c, #742288, #ac6abc, #ac6abc, #742288, #23012c, #000001);
+    background-size: 1600% 1600%;
+    -webkit-animation: crown 20s ease infinite;
+    -moz-animation: crown 20s ease infinite;
+    animation: crown 20s ease infinite; }
+
+@-webkit-keyframes crown {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+
+@-moz-keyframes crown {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+
+@keyframes crown {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
   .chakra-container .home-title {
     background: url(./Images/pageBackground.jpg);
     background-size: cover;
@@ -245,15 +263,41 @@ crown animation
 /************
 rainbow animation
 ************/
-/*******************
-crown animation
-*******************/
+.eye-gradient {
+  background: linear-gradient(269deg, #050527, #10104b, #494993, #7878ba, #7878ba, #494993, #10104b, #050527);
+  background-size: 1600% 1600%;
+  -webkit-animation: crown 20s ease infinite;
+  -moz-animation: crown 20s ease infinite;
+  animation: crown 20s ease infinite;
+  padding: 0 100px; }
+
+@-webkit-keyframes crown {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+
+@-moz-keyframes crown {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+
+@keyframes crown {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+
 /************
 rainbow animation
 ************/
-/*******************
-crown animation
-*******************/
 .throat-gradient {
   background: linear-gradient(269deg, #012735, #026287, #40b7e5, #ade0f4, #ade0f4, #40b7e5, #026287, #012735);
   background-size: 1600% 1600%;
@@ -288,44 +332,140 @@ crown animation
 /************
 rainbow animation
 ************/
-/*******************
-crown animation
-*******************/
-.heart-container {
-  background: url(./Images/meditation.jpg);
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-  padding: 10px;
-  display: flex;
-  justify-content: space-between; }
-  .heart-container h1 {
-    padding: 0;
-    margin: 0; }
-  .heart-container .yoga-video {
-    padding: 10px;
-    height: 97%;
-    width: 50%;
-    background: #005221;
-    opacity: 0.4; }
+.heart-gradient {
+  background: linear-gradient(269deg, #000502, #00260f, #177a3f, #3aa264, #3aa264, #177a3f, #00260f, #000502);
+  background-size: 1600% 1600%;
+  -webkit-animation: crown 20s ease infinite;
+  -moz-animation: crown 20s ease infinite;
+  animation: crown 20s ease infinite; }
+
+@-webkit-keyframes crown {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+
+@-moz-keyframes crown {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+
+@keyframes crown {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
 
 /************
 rainbow animation
 ************/
-/*******************
-crown animation
-*******************/
+.solar-gradient {
+  background: linear-gradient(270deg, #050400, #4c4000, #a18a11, #a18a11, #4c4000, #050400);
+  background-size: 1200% 1200%;
+  -webkit-animation: solar 30s ease infinite;
+  -moz-animation: solar 30s ease infinite;
+  animation: solar 30s ease infinite;
+  padding: 0 100px; }
+
+@-webkit-keyframes solar {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+
+@-moz-keyframes solar {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+
+@keyframes solar {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+
 /************
 rainbow animation
 ************/
-/*******************
-crown animation
-*******************/
+.sacral-gradient {
+  background: linear-gradient(270deg, #431200, #972900, #da521f, #da521f, #972900, #431200);
+  background-size: 1200% 1200%;
+  -webkit-animation: sacral 30s ease infinite;
+  -moz-animation: sacral 30s ease infinite;
+  animation: sacral 30s ease infinite;
+  padding: 0 40px; }
+
+@-webkit-keyframes sacral {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+
+@-moz-keyframes sacral {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+
+@keyframes sacral {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+
 /************
 rainbow animation
 ************/
-/*******************
-crown animation
-*******************/
+.root-gradient {
+  background: linear-gradient(270deg, #0c0000, #570000, #b72121, #b72121, #570000, #0c0000);
+  background-size: 1200% 1200%;
+  -webkit-animation: root 30s ease infinite;
+  -moz-animation: root 30s ease infinite;
+  animation: root 30s ease infinite; }
+
+@-webkit-keyframes root {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+
+@-moz-keyframes root {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+
+@keyframes root {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+
 .app-container {
   font-family: "Josefin Sans", sans-serif; }

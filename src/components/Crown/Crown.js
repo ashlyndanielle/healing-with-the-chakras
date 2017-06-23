@@ -18,13 +18,13 @@ class Crown extends Component {
             <div className='chakra-container'>
 
                 <section className='home-title'></section>
-                <Description 
-                    className=''
-                    subtitle='sahasrara'
-                    title='crown chakra'
-                    arr={descriptionArray}
-                />
-
+                <div className='crown-gradient'>
+                    <Description 
+                        subtitle='sahasrara'
+                        title='crown chakra'
+                        arr={descriptionArray}
+                    />
+                </div>
                 <section className='symptoms'>
                     <div className='balanced'>
                         <h1>CLOSED CROWN CHAKRA</h1>

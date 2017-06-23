@@ -1,11 +1,38 @@
 /************
 rainbow animation
 ************/
-/*******************
-crown animation
-*******************/
 .chakra-container {
   height: 100vh; }
+  .chakra-container .crown-gradient {
+    background: linear-gradient(269deg, #000001, #23012c, #742288, #ac6abc, #ac6abc, #742288, #23012c, #000001);
+    background-size: 1600% 1600%;
+    -webkit-animation: crown 20s ease infinite;
+    -moz-animation: crown 20s ease infinite;
+    animation: crown 20s ease infinite; }
+
+@-webkit-keyframes crown {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+
+@-moz-keyframes crown {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+
+@keyframes crown {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
   .chakra-container .home-title {
     background: url(./Images/pageBackground.jpg);
     background-size: cover;

@@ -15,12 +15,13 @@ class ThirdEye extends Component {
         return (
             <div className='chakra-container'>
                 <section className='home-title'></section>
-                <Description 
-                    subtitle='anja'
-                    title='third eye chakra'
-                    arr={ descriptionArray }
-                />
-
+                 <div className='eye-gradient'>
+                    <Description 
+                        subtitle='anja'
+                        title='third eye chakra'
+                        arr={ descriptionArray }
+                    />
+                </div>
             </div>
         );
     }

@@ -1,1 +1,28 @@
 @import '../../globalVariables.scss';
+
+.eye-gradient {
+    background: linear-gradient(269deg, #050527, #10104b, #494993, #7878ba, #7878ba, #494993, #10104b, #050527);
+    background-size: 1600% 1600%;
+
+    -webkit-animation: crown 20s ease infinite;
+    -moz-animation: crown 20s ease infinite;
+    animation: crown 20s ease infinite;
+
+    @-webkit-keyframes crown {
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
+    }
+    @-moz-keyframes crown {
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
+    }
+    @keyframes crown { 
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
+    }
+
+    padding: 0 100px;
+}

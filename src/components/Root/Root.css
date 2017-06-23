@@ -1,6 +1,33 @@
 /************
 rainbow animation
 ************/
-/*******************
-crown animation
-*******************/
+.root-gradient {
+  background: linear-gradient(270deg, #0c0000, #570000, #b72121, #b72121, #570000, #0c0000);
+  background-size: 1200% 1200%;
+  -webkit-animation: root 30s ease infinite;
+  -moz-animation: root 30s ease infinite;
+  animation: root 30s ease infinite; }
+
+@-webkit-keyframes root {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+
+@-moz-keyframes root {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+
+@keyframes root {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }

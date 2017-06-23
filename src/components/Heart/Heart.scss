@@ -1,29 +1,27 @@
 @import '../../globalVariables.scss';
 
-.heart-container {
-    background: url(./Images/meditation.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
+.heart-gradient {
+    background: linear-gradient(269deg, #000502, #00260f, #177a3f, #3aa264, #3aa264, #177a3f, #00260f, #000502);
+    background-size: 1600% 1600%;
 
-    h1 {
-        padding: 0;
-        margin: 0;
+    -webkit-animation: crown 20s ease infinite;
+    -moz-animation: crown 20s ease infinite;
+    animation: crown 20s ease infinite;
+
+    @-webkit-keyframes crown {
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
     }
-
-    .yoga-video {
-        padding: 10px;
-        height: 97%;
-        width: 50%;
-        background: $heart;
-        opacity: 0.4;
+    @-moz-keyframes crown {
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
     }
-
-
-
-
+    @keyframes crown { 
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
+    }
 
 }

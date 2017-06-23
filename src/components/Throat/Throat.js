@@ -15,12 +15,13 @@ class Throat extends Component {
         return (
             <div className='chakra-container'>
                 <section className='home-title'></section>
-                <Description 
-                    className='throat-gradient'
-                    subtitle='vishuddha'
-                    title='throat chakra'
-                    arr={ descriptionArray }
-                />
+                <div className='throat-gradient'>
+                    <Description 
+                        subtitle='vishuddha'
+                        title='throat chakra'
+                        arr={ descriptionArray }
+                    />
+                </div>
 
             </div>
         );
