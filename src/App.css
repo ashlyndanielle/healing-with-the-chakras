@@ -103,7 +103,7 @@ Everything
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    height: 55vh;
+    height: 60vh;
     width: 100%;
     padding-top: 30px; }
   .crown-container .description {
@@ -111,50 +111,109 @@ Everything
     color: #f5f6f8;
     background: black;
     text-align: center; }
-    .crown-container .description h1 {
+    .crown-container .description .line-div {
+      width: 33%;
+      display: inline-block; }
+    .crown-container .description h2 {
       padding: 20px 0 0 0;
       margin: 0;
       text-transform: uppercase;
       font-size: 28px;
       letter-spacing: 10px; }
-    .crown-container .description h2 {
+    .crown-container .description h1 {
       margin-top: 15px;
       margin-bottom: 15px;
       font-size: 18px;
       letter-spacing: 7px;
       font-family: "Lato", sans-serif; }
-    .crown-container .description p {
-      padding: 0 20px 20px 20px;
-      margin: 0;
-      font-family: "Lato", sans-serif;
-      line-height: 1.5em;
-      letter-spacing: 1px; }
+    .crown-container .description .words {
+      padding: 20px 0; }
+      .crown-container .description .words div {
+        display: block;
+        padding: 2px;
+        font-family: "Lato", sans-serif;
+        line-height: 1.5em;
+        letter-spacing: 1px; }
   .crown-container .symptoms {
-    padding: 10px;
     color: #f5f6f8;
-    background: url("http://www.mindvalleyacademy.com/hubfs/Blog/MVA%20Blog/Crown_Chakra_Opening.jpg?t=1498138517065");
+    background: url(./Images/closedCrown.jpg);
     background-size: cover;
-    background-position: center;
-    text-align: center;
+    background-position: top;
+    height: 70vh;
     display: flex;
+    flex-direction: column;
+    align-items: flex-end;
     justify-content: space-around;
-    align-content: center; }
+    font-size: 18px;
+    letter-spacing: 3px;
+    text-transform: lowercase; }
+    .crown-container .symptoms h1 {
+      margin: 0;
+      padding: 30px 0 5px 0;
+      font-size: 28px; }
     .crown-container .symptoms ul {
-      list-style-type: none; }
+      margin: 0;
+      list-style-type: none;
+      text-align: center;
+      padding: 5px 0;
+      letter-spacing: 1px;
+      font-family: "Lato", sans-serif;
+      line-height: 1.5em; }
+    .crown-container .symptoms hr {
+      width: 70%;
+      border-top: 1px solid #4C065C; }
+    .crown-container .symptoms .balanced {
+      width: 30%;
+      height: 50%;
+      text-align: center;
+      background: rgba(76, 6, 92, 0.4);
+      padding-top: 10px; }
+    .crown-container .symptoms .unbalanced {
+      width: 30%;
+      height: 50%;
+      text-align: center;
+      background: rgba(76, 6, 92, 0.4); }
   .crown-container .guidance {
     color: #f5f6f8;
-    background: forestgreen; }
-    .crown-container .guidance .balancing-title {
+    background: url(./Images/divine.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; }
+    .crown-container .guidance .line-div {
+      width: 33%;
+      display: inline-block; }
+    .crown-container .guidance .guidance-title {
       width: 100%;
       background: black;
       color: #f5f6f8;
-      letter-spacing: 10px;
       font-size: 22px;
       text-align: center;
       padding: 40px 0; }
-  .crown-container .line-div {
-    width: 33%;
-    display: inline-block; }
+      .crown-container .guidance .guidance-title h1 {
+        letter-spacing: 10px; }
+      .crown-container .guidance .guidance-title p {
+        letter-spacing: 1px;
+        font-family: "Lato", sans-serif;
+        font-size: 18px; }
+    .crown-container .guidance .meditation {
+      padding-top: 40px;
+      text-align: center;
+      letter-spacing: 8px; }
+      .crown-container .guidance .meditation .steps {
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-end;
+        font-size: 12px;
+        padding-top: 90px;
+        padding-bottom: 20px; }
+        .crown-container .guidance .meditation .steps div {
+          width: 17%;
+          font-family: "Lato", sans-serif;
+          font-size: 18px;
+          text-align: center; }
+      .crown-container .guidance .meditation p {
+        padding: 0;
+        margin: 0; }
 
 .third-eye-container {
   background: url(./Images/meditation.jpg);
