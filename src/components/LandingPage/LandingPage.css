@@ -1,9 +1,15 @@
+/************
+rainbow animation
+************/
+/*******************
+crown animation
+*******************/
 .landing-container {
   box-sizing: border-box;
   background: black;
   background-size: cover;
   background-position: right bottom;
-  height: 82vh;
+  height: 85vh;
   width: 100vw;
   padding: 6px;
   margin: 0;

@@ -3,12 +3,52 @@ body {
   padding: 0;
   font-family: sans-serif; }
 
+/************
+rainbow animation
+************/
+/*******************
+crown animation
+*******************/
+.description {
+  padding: 10px;
+  color: #f5f6f8;
+  text-align: center; }
+  .description .line-div {
+    width: 33%;
+    display: inline-block; }
+  .description h2 {
+    padding: 20px 0 0 0;
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 28px;
+    letter-spacing: 10px; }
+  .description h1 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    letter-spacing: 7px;
+    font-family: "Lato", sans-serif; }
+  .description .words {
+    padding: 20px 0; }
+    .description .words div {
+      display: block;
+      padding: 2px;
+      font-family: "Lato", sans-serif;
+      line-height: 1.5em;
+      letter-spacing: 1px; }
+
+/************
+rainbow animation
+************/
+/*******************
+crown animation
+*******************/
 .landing-container {
   box-sizing: border-box;
   background: black;
   background-size: cover;
   background-position: right bottom;
-  height: 82vh;
+  height: 85vh;
   width: 100vw;
   padding: 6px;
   margin: 0;
@@ -47,6 +87,12 @@ body {
   .landing-container .crown {
     background: url(./Images/crownGalaxy.png); }
 
+/************
+rainbow animation
+************/
+/*******************
+crown animation
+*******************/
 /*****************
 Everything
 ******************/
@@ -96,9 +142,15 @@ Everything
     .nav-container .landing-link h1:hover {
       letter-spacing: 20px; }
 
-.crown-container {
+/************
+rainbow animation
+************/
+/*******************
+crown animation
+*******************/
+.chakra-container {
   height: 100vh; }
-  .crown-container .home-title {
+  .chakra-container .home-title {
     background: url(./Images/pageBackground.jpg);
     background-size: cover;
     background-position: center;
@@ -106,35 +158,7 @@ Everything
     height: 60vh;
     width: 100%;
     padding-top: 30px; }
-  .crown-container .description {
-    padding: 10px;
-    color: #f5f6f8;
-    background: black;
-    text-align: center; }
-    .crown-container .description .line-div {
-      width: 33%;
-      display: inline-block; }
-    .crown-container .description h2 {
-      padding: 20px 0 0 0;
-      margin: 0;
-      text-transform: uppercase;
-      font-size: 28px;
-      letter-spacing: 10px; }
-    .crown-container .description h1 {
-      margin-top: 15px;
-      margin-bottom: 15px;
-      font-size: 18px;
-      letter-spacing: 7px;
-      font-family: "Lato", sans-serif; }
-    .crown-container .description .words {
-      padding: 20px 0; }
-      .crown-container .description .words div {
-        display: block;
-        padding: 2px;
-        font-family: "Lato", sans-serif;
-        line-height: 1.5em;
-        letter-spacing: 1px; }
-  .crown-container .symptoms {
+  .chakra-container .symptoms {
     color: #f5f6f8;
     background: url(./Images/closedCrown.jpg);
     background-size: cover;
@@ -147,11 +171,11 @@ Everything
     font-size: 18px;
     letter-spacing: 3px;
     text-transform: lowercase; }
-    .crown-container .symptoms h1 {
+    .chakra-container .symptoms h1 {
       margin: 0;
       padding: 30px 0 5px 0;
       font-size: 28px; }
-    .crown-container .symptoms ul {
+    .chakra-container .symptoms ul {
       margin: 0;
       list-style-type: none;
       text-align: center;
@@ -159,98 +183,114 @@ Everything
       letter-spacing: 1px;
       font-family: "Lato", sans-serif;
       line-height: 1.5em; }
-    .crown-container .symptoms hr {
+    .chakra-container .symptoms hr {
       width: 70%;
       border-top: 1px solid #4C065C; }
-    .crown-container .symptoms .balanced {
+    .chakra-container .symptoms .balanced {
       width: 30%;
       height: 50%;
       text-align: center;
       background: rgba(76, 6, 92, 0.4);
       padding-top: 10px; }
-    .crown-container .symptoms .unbalanced {
+    .chakra-container .symptoms .unbalanced {
       width: 30%;
       height: 50%;
       text-align: center;
       background: rgba(76, 6, 92, 0.4); }
-  .crown-container .guidance {
+  .chakra-container .guidance {
     color: #f5f6f8;
     background: url(./Images/divine.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: top;
     background-attachment: fixed; }
-    .crown-container .guidance .line-div {
+    .chakra-container .guidance .black {
+      background: rgba(0, 0, 0, 0.5); }
+    .chakra-container .guidance .line-div {
       width: 33%;
       display: inline-block; }
-    .crown-container .guidance .guidance-title {
+    .chakra-container .guidance .guidance-title {
       width: 100%;
       background: black;
       color: #f5f6f8;
       font-size: 22px;
       text-align: center;
       padding: 40px 0; }
-      .crown-container .guidance .guidance-title h1 {
+      .chakra-container .guidance .guidance-title h1 {
         letter-spacing: 10px; }
-      .crown-container .guidance .guidance-title p {
+      .chakra-container .guidance .guidance-title p {
         letter-spacing: 1px;
         font-family: "Lato", sans-serif;
         font-size: 18px; }
-    .crown-container .guidance .meditation {
-      padding-top: 40px;
+    .chakra-container .guidance .meditation {
+      padding-top: 50px;
+      padding-bottom: 20px;
       text-align: center;
       letter-spacing: 8px; }
-      .crown-container .guidance .meditation .steps {
+      .chakra-container .guidance .meditation .steps {
         display: flex;
         justify-content: space-around;
         align-items: flex-end;
         font-size: 12px;
         padding-top: 90px;
         padding-bottom: 20px; }
-        .crown-container .guidance .meditation .steps div {
+        .chakra-container .guidance .meditation .steps div {
           width: 17%;
           font-family: "Lato", sans-serif;
           font-size: 18px;
           text-align: center; }
-      .crown-container .guidance .meditation p {
+      .chakra-container .guidance .meditation p {
         padding: 0;
         margin: 0; }
 
-.third-eye-container {
-  background: url(./Images/meditation.jpg);
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-  padding: 10px;
-  display: flex;
-  justify-content: space-between; }
-  .third-eye-container h1 {
-    padding: 0;
-    margin: 0; }
-  .third-eye-container .yoga-video {
-    padding: 10px;
-    height: 97%;
-    width: 50%;
-    background: #141565;
-    opacity: 0.4; }
+/************
+rainbow animation
+************/
+/*******************
+crown animation
+*******************/
+/************
+rainbow animation
+************/
+/*******************
+crown animation
+*******************/
+.throat-gradient {
+  background: linear-gradient(269deg, #012735, #026287, #40b7e5, #ade0f4, #ade0f4, #40b7e5, #026287, #012735);
+  background-size: 1600% 1600%;
+  -webkit-animation: crown 20s ease infinite;
+  -moz-animation: crown 20s ease infinite;
+  animation: crown 20s ease infinite; }
 
-.throat-container {
-  height: 100vh;
-  background: url(./Images/meditation.jpg);
-  background-size: cover;
-  background-position: center;
-  padding: 10px;
-  display: flex;
-  justify-content: space-between; }
-  .throat-container h1 {
-    padding: 0;
-    margin: 0; }
-  .throat-container .yoga-video {
-    padding: 10px;
-    height: 97%;
-    width: 50%;
-    background: #06A7E1;
-    opacity: 0.4; }
+@-webkit-keyframes crown {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
 
+@-moz-keyframes crown {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+
+@keyframes crown {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+
+/************
+rainbow animation
+************/
+/*******************
+crown animation
+*******************/
 .heart-container {
   background: url(./Images/meditation.jpg);
   background-size: cover;
@@ -269,59 +309,23 @@ Everything
     background: #005221;
     opacity: 0.4; }
 
-.solar-plexus-container {
-  background: url(./Images/meditation.jpg);
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-  padding: 10px;
-  display: flex;
-  justify-content: space-between; }
-  .solar-plexus-container h1 {
-    padding: 0;
-    margin: 0; }
-  .solar-plexus-container .yoga-video {
-    padding: 10px;
-    height: 97%;
-    width: 50%;
-    background: #DFBF16;
-    opacity: 0.4; }
-
-.sacral-container {
-  background: url(./Images/meditation.jpg);
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-  padding: 10px;
-  display: flex;
-  justify-content: space-between; }
-  .sacral-container h1 {
-    padding: 0;
-    margin: 0; }
-  .sacral-container .yoga-video {
-    padding: 10px;
-    height: 97%;
-    width: 50%;
-    background: #DA511F;
-    opacity: 0.4; }
-
-.root-container {
-  background: url(./Images/meditation.jpg);
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-  padding: 10px;
-  display: flex;
-  justify-content: space-between; }
-  .root-container h1 {
-    padding: 0;
-    margin: 0; }
-  .root-container .yoga-video {
-    padding: 10px;
-    height: 97%;
-    width: 50%;
-    background: #8B0304;
-    opacity: 0.4; }
-
+/************
+rainbow animation
+************/
+/*******************
+crown animation
+*******************/
+/************
+rainbow animation
+************/
+/*******************
+crown animation
+*******************/
+/************
+rainbow animation
+************/
+/*******************
+crown animation
+*******************/
 .app-container {
   font-family: "Josefin Sans", sans-serif; }

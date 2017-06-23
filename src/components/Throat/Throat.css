@@ -1,17 +1,36 @@
-.throat-container {
-  height: 100vh;
-  background: url(./Images/meditation.jpg);
-  background-size: cover;
-  background-position: center;
-  padding: 10px;
-  display: flex;
-  justify-content: space-between; }
-  .throat-container h1 {
-    padding: 0;
-    margin: 0; }
-  .throat-container .yoga-video {
-    padding: 10px;
-    height: 97%;
-    width: 50%;
-    background: #06A7E1;
-    opacity: 0.4; }
+/************
+rainbow animation
+************/
+/*******************
+crown animation
+*******************/
+.throat-gradient {
+  background: linear-gradient(269deg, #012735, #026287, #40b7e5, #ade0f4, #ade0f4, #40b7e5, #026287, #012735);
+  background-size: 1600% 1600%;
+  -webkit-animation: crown 20s ease infinite;
+  -moz-animation: crown 20s ease infinite;
+  animation: crown 20s ease infinite; }
+
+@-webkit-keyframes crown {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+
+@-moz-keyframes crown {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+
+@keyframes crown {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }

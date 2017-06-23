@@ -1,40 +1,26 @@
 @import '../../globalVariables.scss';
 
-.throat-container {
-    height: 100vh;
-    background: url(./Images/meditation.jpg);
-    background-size: cover;
-    background-position: center;
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
+.throat-gradient {
+    background: linear-gradient(269deg, #012735, #026287, #40b7e5, #ade0f4, #ade0f4, #40b7e5, #026287, #012735);
+    background-size: 1600% 1600%;
 
-    h1{
-        padding: 0;
-        margin: 0;
+    -webkit-animation: crown 20s ease infinite;
+    -moz-animation: crown 20s ease infinite;
+    animation: crown 20s ease infinite;
+
+    @-webkit-keyframes crown {
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
     }
-
-    .yoga-video {
-        padding: 10px;
-        height: 97%;
-        width: 50%;
-        background: $throat;
-        opacity: 0.4;
+    @-moz-keyframes crown {
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
+    @keyframes crown { 
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
+    }
 }

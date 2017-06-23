@@ -1,0 +1,33 @@
+/************
+rainbow animation
+************/
+/*******************
+crown animation
+*******************/
+.description {
+  padding: 10px;
+  color: #f5f6f8;
+  text-align: center; }
+  .description .line-div {
+    width: 33%;
+    display: inline-block; }
+  .description h2 {
+    padding: 20px 0 0 0;
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 28px;
+    letter-spacing: 10px; }
+  .description h1 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    letter-spacing: 7px;
+    font-family: "Lato", sans-serif; }
+  .description .words {
+    padding: 20px 0; }
+    .description .words div {
+      display: block;
+      padding: 2px;
+      font-family: "Lato", sans-serif;
+      line-height: 1.5em;
+      letter-spacing: 1px; }

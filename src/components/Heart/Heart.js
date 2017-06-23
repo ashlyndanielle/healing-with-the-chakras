@@ -1,24 +1,27 @@
 import React, { Component } from 'react';
-import Youtube from '../Youtube/Youtube';
 
-import './Heart.scss';
+
+import Description from '../Shared/Description';
+
+import '../Crown/Crown.scss'
+
 
 class Heart extends Component {
-
     render() {
+        const descriptionArray = [
+            'The crown or the seventh chakra is located at the top of the head and is our connection to the Universe.', 
+            'In fact, the Seventh Chakra disperses the Universal energy or life force into the six other chakras located below it. In Sanskrit, the', 
+            'Crown Chakra is termed as Sahasrara, the ‘thousand fold’ Chakra, since it is pictured as a lotus having a thousand white petals.'
+        ]
         return (
-            <div className='heart-container'>
+            <div className='chakra-container'>
+                <section className='home-title'></section>
 
-                <section className='yoga-video'>
-                    <Youtube youtubeLink="https://www.youtube.com/embed/TMq0Bt-G7wM"/>
-                </section>
-                
-                <section className='about'>
-                    <h1>Heart Chakra</h1>
-                    <h2>Anahata</h2>
-                    <p className='description'>description here</p>
-                </section>
-
+                <Description 
+                    subtitle='anahata'
+                    title='heart chakra'
+                    arr={descriptionArray}
+                />
 
             </div>
         );

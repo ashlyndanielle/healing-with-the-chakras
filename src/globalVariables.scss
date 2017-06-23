@@ -14,4 +14,58 @@ $font-primary: 'Josefin Sans', sans-serif;
 $font-secondary: 'Lato', sans-serif;
 
 
+/************
+rainbow animation
+************/
+        // background: linear-gradient(129deg, #4c065c, #141565, #06a7e1, #005221, #dfbf16, #da511f, #8b0304);
+        // background-size: 1400% 1400%;
+
+        // -webkit-animation: chakraRainbow 31s ease infinite;
+        // -moz-animation: chakraRainbow 31s ease infinite;
+        // animation: chakraRainbow 31s ease infinite;
+
+        // @-webkit-keyframes chakraRainbow {
+        //     0%{background-position:0% 50%}
+        //     50%{background-position:100% 50%}
+        //     100%{background-position:0% 50%}
+        // }
+        // @-moz-keyframes chakraRainbow {
+        //     0%{background-position:0% 50%}
+        //     50%{background-position:100% 50%}
+        //     100%{background-position:0% 50%}
+        // }
+        // @keyframes chakraRainbow { 
+        //     0%{background-position:0% 50%}
+        //     50%{background-position:100% 50%}
+        //     100%{background-position:0% 50%}
+        // }
+
+
+/*******************
+crown animation
+*******************/
+    //    background: linear-gradient(269deg, #000001, #23012c, #742288, #ac6abc, #ac6abc, #742288, #23012c, #000001);
+    //     background-size: 1600% 1600%;
+
+    //     -webkit-animation: crown 20s ease infinite;
+    //     -moz-animation: crown 20s ease infinite;
+    //     animation: crown 20s ease infinite;
+
+    //     @-webkit-keyframes crown {
+    //         0%{background-position:0% 50%}
+    //         50%{background-position:100% 50%}
+    //         100%{background-position:0% 50%}
+    //     }
+    //     @-moz-keyframes crown {
+    //         0%{background-position:0% 50%}
+    //         50%{background-position:100% 50%}
+    //         100%{background-position:0% 50%}
+    //     }
+    //     @keyframes crown { 
+    //         0%{background-position:0% 50%}
+    //         50%{background-position:100% 50%}
+    //         100%{background-position:0% 50%}
+    //     }
+
+
 // Josefin+Sans:400,700|Lato:300,400

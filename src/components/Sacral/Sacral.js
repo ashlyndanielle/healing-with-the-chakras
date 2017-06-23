@@ -1,21 +1,26 @@
 import React, { Component } from 'react';
-import Youtube from '../Youtube/Youtube';
 
-import './Sacral.scss';
+import Description from '../Shared/Description';
+
 
 class Sacral extends Component {
     render() {
+
+        const descriptionArray = [
+            'The crown or the seventh chakra is located at the top of the head and is our connection to the Universe.', 
+            'In fact, the Seventh Chakra disperses the Universal energy or life force into the six other chakras located below it. In Sanskrit, the', 
+            'Crown Chakra is termed as Sahasrara, the ‘thousand fold’ Chakra, since it is pictured as a lotus having a thousand white petals.'
+        ]
+
+
         return (
-            <div className='sacral-container'>
-                <section className='yoga-video'>
-                    <Youtube youtubeLink='https://www.youtube.com/embed/NUNiK5tIchE'/>
-                </section>
-                
-                <section className='about'>
-                    <h1>Sacral Chakra</h1>
-                    <h2>Svadhisthana</h2>
-                    <p className='description'>description here</p>
-                </section>
+            <div className='chakra-container'>
+                <section className='home-title'></section>
+                <Description 
+                    subtitle='svadhisthana'
+                    title='sacral chakra'
+                    arr={ descriptionArray }
+                />
 
             </div>
         );

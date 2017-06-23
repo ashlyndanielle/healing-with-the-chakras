@@ -1,17 +1,6 @@
-.solar-plexus-container {
-  background: url(./Images/meditation.jpg);
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-  padding: 10px;
-  display: flex;
-  justify-content: space-between; }
-  .solar-plexus-container h1 {
-    padding: 0;
-    margin: 0; }
-  .solar-plexus-container .yoga-video {
-    padding: 10px;
-    height: 97%;
-    width: 50%;
-    background: #DFBF16;
-    opacity: 0.4; }
+/************
+rainbow animation
+************/
+/*******************
+crown animation
+*******************/
