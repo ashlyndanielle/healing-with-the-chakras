@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import ChakraTitle from '../Shared/ChakraTitle';
+import Symptoms from '../Shared/Symptoms';
 import Description from '../Shared/Description';
 
 import './Root.scss'
@@ -13,6 +13,9 @@ class Root extends Component {
             'Crown Chakra is termed as Sahasrara, the ‘thousand fold’ Chakra, since it is pictured as a lotus having a thousand white petals.'
         ]
 
+        const closedList = ['depression', 'inability to learn', 'disconnected', 'prejudiced', 'confused', 'feeling incomplete'];
+        const openedList = ['presence/mindfulness', 'unshakeable trust in our inner guidence', 'mystical oneness', 'peacefulness', 'clarity', 'access to universal consciousness'];
+
         return (
             <div className='chakra-container'>
                 <section className='home-title'></section>
@@ -21,6 +24,13 @@ class Root extends Component {
                         subtitle='muladhara'
                         title='root chakra'
                         arr={descriptionArray}
+                    />
+                </div>
+                <div className='root-symptoms'>
+                    <Symptoms 
+                        title='root' 
+                        list1={closedList} 
+                        list2={openedList} 
                     />
                 </div>
             </div>

@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 
 import LotusCrown from '../../Images/Lotus-Line-Art-1.svg';
-import Youtube from '../Youtube/Youtube';
 import ChakraTitle from '../Shared/ChakraTitle';
 import Description from '../Shared/Description';
+import Symptoms from '../Shared/Symptoms';
 
 class Crown extends Component {
     render() {
@@ -13,6 +13,9 @@ class Crown extends Component {
             'In fact, the Seventh Chakra disperses the Universal energy or life force into the six other chakras located below it. In Sanskrit, the', 
             'Crown Chakra is termed as Sahasrara, the ‘thousand fold’ Chakra, since it is pictured as a lotus having a thousand white petals.'
         ]
+
+        const closedList = ['depression', 'inability to learn', 'disconnected', 'prejudiced', 'confused', 'feeling incomplete'];
+        const openedList = ['presence/mindfulness', 'unshakeable trust in our inner guidence', 'mystical oneness', 'peacefulness', 'clarity', 'access to universal consciousness'];
 
         return (
             <div className='chakra-container'>
@@ -25,7 +28,15 @@ class Crown extends Component {
                         arr={descriptionArray}
                     />
                 </div>
-                <section className='symptoms'>
+
+                <div className='crown-symptoms'>
+                    <Symptoms 
+                        title='crown' 
+                        list1={closedList} 
+                        list2={openedList} 
+                    />
+                </div>
+                {/*<section className='symptoms'>
                     <div className='balanced'>
                         <h1>CLOSED CROWN CHAKRA</h1>
                         <hr/>
@@ -51,7 +62,7 @@ class Crown extends Component {
                             <li>access to universal consciousness</li>
                         </ul>
                     </div>
-                </section>
+                </section>*/}
                 
                 <section className='guidance'>
                     <div className='black'>

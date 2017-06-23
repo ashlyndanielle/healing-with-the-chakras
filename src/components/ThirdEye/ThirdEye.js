@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
+
+import Symptoms from '../Shared/Symptoms';
 import Description from '../Shared/Description';
 
-import './ThirdEye.scss';
 
 class ThirdEye extends Component {
     render() {
@@ -12,6 +13,9 @@ class ThirdEye extends Component {
             'Crown Chakra is termed as Sahasrara, the ‘thousand fold’ Chakra, since it is pictured as a lotus having a thousand white petals.'
         ]
 
+        const closedList = ['depression', 'inability to learn', 'disconnected', 'prejudiced', 'confused', 'feeling incomplete'];
+        const openedList = ['presence/mindfulness', 'unshakeable trust in our inner guidence', 'mystical oneness', 'peacefulness', 'clarity', 'access to universal consciousness'];
+
         return (
             <div className='chakra-container'>
                 <section className='home-title'></section>
@@ -20,6 +24,14 @@ class ThirdEye extends Component {
                         subtitle='anja'
                         title='third eye chakra'
                         arr={ descriptionArray }
+                    />
+                </div>
+
+                <div className='eye-symptoms'>
+                    <Symptoms 
+                        title='third eye' 
+                        list1={closedList} 
+                        list2={openedList} 
                     />
                 </div>
             </div>
