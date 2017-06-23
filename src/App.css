@@ -132,7 +132,9 @@ Everything
   .crown-container .symptoms {
     padding: 10px;
     color: #f5f6f8;
-    background: cornflowerblue;
+    background: url("http://www.mindvalleyacademy.com/hubfs/Blog/MVA%20Blog/Crown_Chakra_Opening.jpg?t=1498138517065");
+    background-size: cover;
+    background-position: center;
     text-align: center;
     display: flex;
     justify-content: space-around;
@@ -140,10 +142,16 @@ Everything
     .crown-container .symptoms ul {
       list-style-type: none; }
   .crown-container .guidance {
-    padding: 10px;
     color: #f5f6f8;
-    background: forestgreen;
-    text-align: center; }
+    background: forestgreen; }
+    .crown-container .guidance .balancing-title {
+      width: 100%;
+      background: black;
+      color: #f5f6f8;
+      letter-spacing: 10px;
+      font-size: 22px;
+      text-align: center;
+      padding: 40px 0; }
   .crown-container .line-div {
     width: 33%;
     display: inline-block; }

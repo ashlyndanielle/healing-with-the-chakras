@@ -49,7 +49,9 @@
     .symptoms {
         padding: 10px;
         color: $about;
-        background: cornflowerblue;
+        background: url("http://www.mindvalleyacademy.com/hubfs/Blog/MVA%20Blog/Crown_Chakra_Opening.jpg?t=1498138517065");
+        background-size: cover;
+        background-position: center;
         text-align: center;
         display: flex;
         justify-content: space-around;
@@ -60,10 +62,18 @@
         }
     }
     .guidance {
-        padding: 10px;
         color: $about;
         background: forestgreen;
-        text-align: center;
+
+        .balancing-title {
+            width: 100%;
+            background: black;
+            color: $about;
+            letter-spacing: 10px;
+            font-size: 22px;
+            text-align: center;
+            padding: 40px 0;
+        }
     }
 
     .line-div {

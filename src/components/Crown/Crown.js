@@ -17,7 +17,7 @@ class Crown extends Component {
 
                 <section className='description'>
                     
-                <ChakraTitle title="Crown Chakra"/>
+                    <ChakraTitle title="Crown Chakra"/>
 
                     <h2>sahasrara</h2>
                     <p>The crown or the seventh chakra is located at the top of the head and is our connection to the Universe.<br/>In fact, the Seventh Chakra disperses the Universal energy or life force into the six other chakras located below it. In Sanskrit, the <br/>Crown Chakra is termed as Sahasrara, the ‘thousand fold’ Chakra, since it is pictured as a lotus having a thousand white petals.</p>
@@ -49,8 +49,14 @@ class Crown extends Component {
                 </section>
                 
                 <section className='guidance'>
-                    <div>affirmation</div>
-                    <div>meditation</div>
+                    <div className='balancing-title'>BALANCING</div>
+                    <div className='affirmation'>
+                        <p>AFFIRMATION: I am complete and one with the divine energy.  I am part of the Universal flow.  I am light.  I am love.
+                        </p>
+                    </div>
+                    <div className='meditation'>
+                        <p>MEDITATION:  </p>
+                    </div>
                 </section>
 
    
