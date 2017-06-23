@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 import Symptoms from '../Shared/Symptoms';
 import Description from '../Shared/Description';
+import Guidance from '../Shared/Guidance';
 
 
 class SolarPlexus extends Component {
@@ -14,6 +15,14 @@ class SolarPlexus extends Component {
         ]
         const closedList = ['depression', 'inability to learn', 'disconnected', 'prejudiced', 'confused', 'feeling incomplete'];
         const openedList = ['presence/mindfulness', 'unshakeable trust in our inner guidence', 'mystical oneness', 'peacefulness', 'clarity', 'access to universal consciousness'];
+
+        const medArr = [
+            'Sit comfortably with your legs crossed and your back straight. Rest your hands in your lap, palms upward, with your left hand on top. This is the mudra for receiving energy. Close your eyes and let your breathing become slow and even.',
+            'Visualize a thousand-petalled lotus at the crown of your head. Imagine its petals gently opening to reveal an intense light. Let this divine light flow down into you through your crown chakra.  Repeat your crown chakra affirmation.',
+            'Feel the light spiraling down your body. Enjoy the warm glow as it saturates your entire being. Let every cell be permeated by light and inspiration, and every part of your consciousness become illuminated.',
+            'Focus your senses on the intensity of the light so that you not only see it, but hear, smell, taste, and touch it. Think of the light as a manifestation of your higher self, representing the peace that lies beyond understanding.',
+            'Feel a pure channel for the light: allow yourself to be at one with it. In this state of oneness, intuitive thoughts and inspirations may enter your consciousness. Be thankful for this guidance.  Take a breath and open your eyes.'
+        ];
 
         return (
             <div className='chakra-container'>
@@ -31,6 +40,12 @@ class SolarPlexus extends Component {
                         title='solar plexus' 
                         list1={closedList} 
                         list2={openedList} 
+                    />
+                </div>
+                <div className='solar-guidance'>
+                    <Guidance 
+                        meditationTitle='DIVINE LIGHT MEDITATION'
+                        arr={medArr}
                     />
                 </div>
             </div>
