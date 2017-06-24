@@ -37,6 +37,47 @@ rainbow animation
 /************
 rainbow animation
 ************/
+.symptoms {
+  background: url(./Images/symptomsCrown.jpg);
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+  color: #f5f6f8;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-around;
+  font-size: 18px;
+  letter-spacing: 3px;
+  text-transform: lowercase; }
+  .symptoms h1 {
+    margin: 0;
+    padding: 30px 0 5px 0;
+    font-size: 28px; }
+  .symptoms ul {
+    margin: 0;
+    list-style-type: none;
+    text-align: center;
+    padding: 5px 0;
+    letter-spacing: 1px;
+    font-family: "Lato", sans-serif;
+    line-height: 1.5em; }
+  .symptoms hr {
+    width: 70%; }
+  .symptoms .balanced {
+    width: 30%;
+    height: 50%;
+    text-align: center;
+    padding-top: 10px; }
+  .symptoms .unbalanced {
+    width: 30%;
+    height: 50%;
+    text-align: center; }
+
+/************
+rainbow animation
+************/
 .landing-container {
   box-sizing: border-box;
   background: black;
@@ -174,53 +215,23 @@ rainbow animation
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    height: 60vh;
+    height: 57vh;
     width: 100%;
     padding-top: 30px; }
-  .chakra-container .symptoms {
-    color: #f5f6f8;
-    background: url(./Images/closedCrown.jpg);
+  .chakra-container .crown-symptoms {
+    background: url(./Images/symptomsCrown.jpg);
     background-size: cover;
     background-position: top;
-    height: 70vh;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    justify-content: space-around;
-    font-size: 18px;
-    letter-spacing: 3px;
-    text-transform: lowercase; }
-    .chakra-container .symptoms h1 {
-      margin: 0;
-      padding: 30px 0 5px 0;
-      font-size: 28px; }
-    .chakra-container .symptoms ul {
-      margin: 0;
-      list-style-type: none;
-      text-align: center;
-      padding: 5px 0;
-      letter-spacing: 1px;
-      font-family: "Lato", sans-serif;
-      line-height: 1.5em; }
-    .chakra-container .symptoms hr {
-      width: 70%;
-      border-top: 1px solid #4C065C; }
-    .chakra-container .symptoms .balanced {
-      width: 30%;
-      height: 50%;
-      text-align: center;
-      background: rgba(76, 6, 92, 0.4);
-      padding-top: 10px; }
-    .chakra-container .symptoms .unbalanced {
-      width: 30%;
-      height: 50%;
-      text-align: center;
+    background-attachment: fixed; }
+    .chakra-container .crown-symptoms .balanced {
+      background: rgba(76, 6, 92, 0.4); }
+    .chakra-container .crown-symptoms .unbalanced {
       background: rgba(76, 6, 92, 0.4); }
   .chakra-container .guidance {
     color: #f5f6f8;
     background: url(./Images/divine.jpg);
     background-size: cover;
-    background-position: top;
+    background-position: center;
     background-attachment: fixed; }
     .chakra-container .guidance .black {
       background: rgba(0, 0, 0, 0.5); }
@@ -250,8 +261,9 @@ rainbow animation
         justify-content: space-around;
         align-items: flex-end;
         font-size: 12px;
-        padding-top: 90px;
-        padding-bottom: 20px; }
+        padding-top: 200px;
+        padding-bottom: 20px;
+        line-height: 2em; }
         .chakra-container .guidance .meditation .steps div {
           width: 17%;
           font-family: "Lato", sans-serif;
@@ -296,6 +308,12 @@ rainbow animation
   100% {
     background-position: 0% 50%; } }
 
+.eye-symptoms .balanced {
+  background: rgba(20, 21, 101, 0.4); }
+
+.eye-symptoms .unbalanced {
+  background: rgba(20, 21, 101, 0.4); }
+
 /************
 rainbow animation
 ************/
@@ -330,6 +348,12 @@ rainbow animation
   100% {
     background-position: 0% 50%; } }
 
+.throat-symptoms .balanced {
+  background: rgba(6, 167, 225, 0.4); }
+
+.throat-symptoms .unbalanced {
+  background: rgba(6, 167, 225, 0.4); }
+
 /************
 rainbow animation
 ************/
@@ -363,6 +387,12 @@ rainbow animation
     background-position: 100% 50%; }
   100% {
     background-position: 0% 50%; } }
+
+.heart-symptoms .balanced {
+  background: rgba(0, 82, 33, 0.4); }
+
+.heart-symptoms .unbalanced {
+  background: rgba(0, 82, 33, 0.4); }
 
 /************
 rainbow animation
@@ -399,6 +429,12 @@ rainbow animation
   100% {
     background-position: 0% 50%; } }
 
+.solar-symptoms .balanced {
+  background: rgba(223, 191, 22, 0.4); }
+
+.solar-symptoms .unbalanced {
+  background: rgba(223, 191, 22, 0.4); }
+
 /************
 rainbow animation
 ************/
@@ -434,6 +470,12 @@ rainbow animation
   100% {
     background-position: 0% 50%; } }
 
+.sacral-symptoms .balanced {
+  background: rgba(218, 81, 31, 0.4); }
+
+.sacral-symptoms .unbalanced {
+  background: rgba(218, 81, 31, 0.4); }
+
 /************
 rainbow animation
 ************/
@@ -467,6 +509,12 @@ rainbow animation
     background-position: 100% 50%; }
   100% {
     background-position: 0% 50%; } }
+
+.root-symptoms .balanced {
+  background: rgba(139, 3, 4, 0.4); }
+
+.root-symptoms .unbalanced {
+  background: rgba(139, 3, 4, 0.4); }
 
 .app-container {
   font-family: "Josefin Sans", sans-serif; }

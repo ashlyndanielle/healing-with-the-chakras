@@ -1,0 +1,40 @@
+/************
+rainbow animation
+************/
+.symptoms {
+  background: url(./Images/symptomsCrown.jpg);
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+  color: #f5f6f8;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-around;
+  font-size: 18px;
+  letter-spacing: 3px;
+  text-transform: lowercase; }
+  .symptoms h1 {
+    margin: 0;
+    padding: 30px 0 5px 0;
+    font-size: 28px; }
+  .symptoms ul {
+    margin: 0;
+    list-style-type: none;
+    text-align: center;
+    padding: 5px 0;
+    letter-spacing: 1px;
+    font-family: "Lato", sans-serif;
+    line-height: 1.5em; }
+  .symptoms hr {
+    width: 70%; }
+  .symptoms .balanced {
+    width: 30%;
+    height: 50%;
+    text-align: center;
+    padding-top: 10px; }
+  .symptoms .unbalanced {
+    width: 30%;
+    height: 50%;
+    text-align: center; }

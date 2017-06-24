@@ -23,4 +23,15 @@
         50%{background-position:100% 50%}
         100%{background-position:0% 50%}
     }
+
+}
+
+.throat-symptoms {
+    .balanced {
+        background: $Othroat;
+    }
+
+    .unbalanced {
+        background: $Othroat;
+    }
 }

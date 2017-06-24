@@ -13,8 +13,8 @@ class SolarPlexus extends Component {
             'In fact, the Seventh Chakra disperses the Universal energy or life force into the six other chakras located below it. In Sanskrit, the', 
             'Crown Chakra is termed as Sahasrara, the ‘thousand fold’ Chakra, since it is pictured as a lotus having a thousand white petals.'
         ]
-        const closedList = ['depression', 'inability to learn', 'disconnected', 'prejudiced', 'confused', 'feeling incomplete'];
-        const openedList = ['presence/mindfulness', 'unshakeable trust in our inner guidence', 'mystical oneness', 'peacefulness', 'clarity', 'access to universal consciousness'];
+        const closedList = ['arrogance', 'digestive problems', 'lack of confidence', 'judgmental', 'perfectionist', 'controlling'];
+        const openedList = ['high self-esteem', 'positive self-image', 'independence', 'happiness', 'alignment with personal cosmic path', 'active intellect'];
 
         const medArr = [
             'Sit comfortably with your legs crossed and your back straight. Rest your hands in your lap, palms upward, with your left hand on top. This is the mudra for receiving energy. Close your eyes and let your breathing become slow and even.',

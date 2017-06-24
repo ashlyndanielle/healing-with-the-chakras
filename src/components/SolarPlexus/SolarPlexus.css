@@ -32,3 +32,9 @@ rainbow animation
     background-position: 100% 50%; }
   100% {
     background-position: 0% 50%; } }
+
+.solar-symptoms .balanced {
+  background: rgba(223, 191, 22, 0.4); }
+
+.solar-symptoms .unbalanced {
+  background: rgba(223, 191, 22, 0.4); }

@@ -32,3 +32,9 @@ rainbow animation
     background-position: 100% 50%; }
   100% {
     background-position: 0% 50%; } }
+
+.sacral-symptoms .balanced {
+  background: rgba(218, 81, 31, 0.4); }
+
+.sacral-symptoms .unbalanced {
+  background: rgba(218, 81, 31, 0.4); }

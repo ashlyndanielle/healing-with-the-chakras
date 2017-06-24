@@ -31,3 +31,9 @@ rainbow animation
     background-position: 100% 50%; }
   100% {
     background-position: 0% 50%; } }
+
+.throat-symptoms .balanced {
+  background: rgba(6, 167, 225, 0.4); }
+
+.throat-symptoms .unbalanced {
+  background: rgba(6, 167, 225, 0.4); }

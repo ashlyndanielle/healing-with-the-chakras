@@ -32,3 +32,9 @@ rainbow animation
     background-position: 100% 50%; }
   100% {
     background-position: 0% 50%; } }
+
+.eye-symptoms .balanced {
+  background: rgba(20, 21, 101, 0.4); }
+
+.eye-symptoms .unbalanced {
+  background: rgba(20, 21, 101, 0.4); }

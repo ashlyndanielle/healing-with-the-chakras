@@ -14,8 +14,8 @@ class Root extends Component {
             'Crown Chakra is termed as Sahasrara, the ‘thousand fold’ Chakra, since it is pictured as a lotus having a thousand white petals.'
         ]
 
-        const closedList = ['', '', '', '', '', ''];
-        const openedList = ['', '', '', '', '', ''];
+        const closedList = ['addiction', 'anxiety', 'lack of confidence in the future', 'indecisiveness', 'money issues', 'obsession'];
+        const openedList = ['stability', 'physical power', 'grounded', 'passion', 'vitality', 'physical security'];
 
         const medArr = [
             'Sit comfortably with your legs crossed and your back straight. Rest your hands in your lap, palms upward, with your left hand on top. This is the mudra for receiving energy. Close your eyes and let your breathing become slow and even.',

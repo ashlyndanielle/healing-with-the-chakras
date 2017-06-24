@@ -23,3 +23,13 @@
         100%{background-position:0% 50%}
     }
 }
+
+.root-symptoms {
+    .balanced {
+        background: $Oroot;
+    }
+
+    .unbalanced {
+        background: $Oroot;
+    }
+}

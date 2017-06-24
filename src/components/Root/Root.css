@@ -31,3 +31,9 @@ rainbow animation
     background-position: 100% 50%; }
   100% {
     background-position: 0% 50%; } }
+
+.root-symptoms .balanced {
+  background: rgba(139, 3, 4, 0.4); }
+
+.root-symptoms .unbalanced {
+  background: rgba(139, 3, 4, 0.4); }

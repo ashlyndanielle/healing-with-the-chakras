@@ -13,8 +13,8 @@ class Heart extends Component {
             'Crown Chakra is termed as Sahasrara, the ‘thousand fold’ Chakra, since it is pictured as a lotus having a thousand white petals.'
         ]
 
-        const closedList = ['depression', 'inability to learn', 'disconnected', 'prejudiced', 'confused', 'feeling incomplete'];
-        const openedList = ['presence/mindfulness', 'unshakeable trust in our inner guidence', 'mystical oneness', 'peacefulness', 'clarity', 'access to universal consciousness'];
+        const closedList = ['overly critical', 'moody', 'co-dependent', 'demanding', 'paranoid', 'hopeless'];
+        const openedList = ['loving', 'generous', 'nurturing', 'balanced', 'selfless', 'discerning'];
 
         const medArr = [
             'Sit comfortably with your legs crossed and your back straight. Rest your hands in your lap, palms upward, with your left hand on top. This is the mudra for receiving energy. Close your eyes and let your breathing become slow and even.',
