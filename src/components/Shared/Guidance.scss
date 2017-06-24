@@ -1,0 +1,67 @@
+@import '../../globalVariables.scss';
+
+    .guidance {
+
+        color: $about;
+        background: url(./Images/divine.jpg);
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+
+        .black {
+            background: rgba(0,0,0,0.5);
+        }
+
+        .line-div {
+            
+            width: 30%;
+            display: inline-block;
+        }
+
+        .guidance-title {
+            width: 100%;
+            color: $about;
+            font-size: 22px;
+            text-align: center;
+            padding: 40px 0;
+
+            h1 {
+                letter-spacing: 10px;
+            }
+
+            p {
+                letter-spacing: 1px;
+                font-family: $font-secondary;
+                font-size: 18px;
+            }
+        }
+
+        .meditation {
+            padding-top: 50px;
+            padding-bottom: 20px;
+            text-align: center;
+            letter-spacing: 8px;
+
+            .steps {
+                display: flex;
+                justify-content: space-around;
+                align-items: flex-end;
+                font-size: 12px;
+                padding-top: 200px;
+                padding-bottom: 20px;
+                line-height: 2em;
+
+                div {
+                    width: 17%;
+                    font-family: $font-secondary;
+                    font-size: 18px;
+                    text-align: center;
+                }
+            }
+
+            p {
+                padding: 0;
+                margin: 0;
+            }
+        }
+    }

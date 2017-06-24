@@ -1,7 +1,7 @@
 @import '../../globalVariables.scss';
 
 .solar-gradient {
-    background: linear-gradient(270deg, #050400, #4c4000, #a18a11, #a18a11, #4c4000, #050400);
+    background: linear-gradient(270deg, #120f00, #2c2500, #5f5209, #5f5209, #2c2500, #120f00);
     background-size: 1200% 1200%;
 
     -webkit-animation: solar 30s ease infinite;
@@ -35,5 +35,32 @@
 
     .unbalanced {
         background: $Osolar;
+    }
+}
+
+.solar-guidance {
+    .guidance-title {
+        background: linear-gradient(270deg, #120f00, #2c2500, #5f5209, #5f5209, #2c2500, #120f00);
+        background-size: 1200% 1200%;
+
+        -webkit-animation: solar 30s ease infinite;
+        -moz-animation: solar 30s ease infinite;
+        animation: solar 30s ease infinite;
+
+        @-webkit-keyframes solar {
+            0%{background-position:0% 50%}
+            50%{background-position:100% 50%}
+            100%{background-position:0% 50%}
+        }
+        @-moz-keyframes solar {
+            0%{background-position:0% 50%}
+            50%{background-position:100% 50%}
+            100%{background-position:0% 50%}
+        }
+        @keyframes solar { 
+            0%{background-position:0% 50%}
+            50%{background-position:100% 50%}
+            100%{background-position:0% 50%}
+        }
     }
 }

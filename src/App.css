@@ -78,6 +78,54 @@ rainbow animation
 /************
 rainbow animation
 ************/
+.guidance {
+  color: #f5f6f8;
+  background: url(./Images/divine.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; }
+  .guidance .black {
+    background: rgba(0, 0, 0, 0.5); }
+  .guidance .line-div {
+    width: 30%;
+    display: inline-block; }
+  .guidance .guidance-title {
+    width: 100%;
+    color: #f5f6f8;
+    font-size: 22px;
+    text-align: center;
+    padding: 40px 0; }
+    .guidance .guidance-title h1 {
+      letter-spacing: 10px; }
+    .guidance .guidance-title p {
+      letter-spacing: 1px;
+      font-family: "Lato", sans-serif;
+      font-size: 18px; }
+  .guidance .meditation {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    text-align: center;
+    letter-spacing: 8px; }
+    .guidance .meditation .steps {
+      display: flex;
+      justify-content: space-around;
+      align-items: flex-end;
+      font-size: 12px;
+      padding-top: 200px;
+      padding-bottom: 20px;
+      line-height: 2em; }
+      .guidance .meditation .steps div {
+        width: 17%;
+        font-family: "Lato", sans-serif;
+        font-size: 18px;
+        text-align: center; }
+    .guidance .meditation p {
+      padding: 0;
+      margin: 0; }
+
+/************
+rainbow animation
+************/
 .landing-container {
   box-sizing: border-box;
   background: black;
@@ -180,14 +228,14 @@ rainbow animation
 .chakra-container {
   height: 100vh; }
   .chakra-container .crown-gradient {
-    background: linear-gradient(269deg, #000001, #23012c, #742288, #ac6abc, #ac6abc, #742288, #23012c, #000001);
-    background-size: 1600% 1600%;
-    -webkit-animation: crown 20s ease infinite;
-    -moz-animation: crown 20s ease infinite;
-    animation: crown 20s ease infinite;
+    background: linear-gradient(270deg, #010001, #130018, #32063f, #32063f, #130018, #010001);
+    background-size: 1200% 1200%;
+    -webkit-animation: thirdEye 30s ease infinite;
+    -moz-animation: thirdEye 30s ease infinite;
+    animation: thirdEye 30s ease infinite;
     padding: 0 90px; }
 
-@-webkit-keyframes crown {
+@-webkit-keyframes thirdEye {
   0% {
     background-position: 0% 50%; }
   50% {
@@ -195,7 +243,7 @@ rainbow animation
   100% {
     background-position: 0% 50%; } }
 
-@-moz-keyframes crown {
+@-moz-keyframes thirdEye {
   0% {
     background-position: 0% 50%; }
   50% {
@@ -203,7 +251,7 @@ rainbow animation
   100% {
     background-position: 0% 50%; } }
 
-@keyframes crown {
+@keyframes thirdEye {
   0% {
     background-position: 0% 50%; }
   50% {
@@ -223,68 +271,49 @@ rainbow animation
     background-size: cover;
     background-position: top;
     background-attachment: fixed; }
-    .chakra-container .crown-symptoms .balanced {
-      background: rgba(76, 6, 92, 0.4); }
-    .chakra-container .crown-symptoms .unbalanced {
-      background: rgba(76, 6, 92, 0.4); }
-  .chakra-container .guidance {
-    color: #f5f6f8;
-    background: url(./Images/divine.jpg);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed; }
-    .chakra-container .guidance .black {
-      background: rgba(0, 0, 0, 0.5); }
-    .chakra-container .guidance .line-div {
-      width: 33%;
-      display: inline-block; }
-    .chakra-container .guidance .guidance-title {
-      width: 100%;
-      background: black;
-      color: #f5f6f8;
-      font-size: 22px;
-      text-align: center;
-      padding: 40px 0; }
-      .chakra-container .guidance .guidance-title h1 {
-        letter-spacing: 10px; }
-      .chakra-container .guidance .guidance-title p {
-        letter-spacing: 1px;
-        font-family: "Lato", sans-serif;
-        font-size: 18px; }
-    .chakra-container .guidance .meditation {
-      padding-top: 50px;
-      padding-bottom: 20px;
-      text-align: center;
-      letter-spacing: 8px; }
-      .chakra-container .guidance .meditation .steps {
-        display: flex;
-        justify-content: space-around;
-        align-items: flex-end;
-        font-size: 12px;
-        padding-top: 200px;
-        padding-bottom: 20px;
-        line-height: 2em; }
-        .chakra-container .guidance .meditation .steps div {
-          width: 17%;
-          font-family: "Lato", sans-serif;
-          font-size: 18px;
-          text-align: center; }
-      .chakra-container .guidance .meditation p {
-        padding: 0;
-        margin: 0; }
+  .chakra-container .crown-guidance .guidance-title {
+    background: linear-gradient(270deg, #010001, #130018, #32063f, #32063f, #130018, #010001);
+    background-size: 1200% 1200%;
+    -webkit-animation: thirdEye 30s ease infinite;
+    -moz-animation: thirdEye 30s ease infinite;
+    animation: thirdEye 30s ease infinite; }
+
+@-webkit-keyframes thirdEye {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+
+@-moz-keyframes thirdEye {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+
+@keyframes thirdEye {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
 
 /************
 rainbow animation
 ************/
 .eye-gradient {
-  background: linear-gradient(269deg, #050527, #10104b, #494993, #7878ba, #7878ba, #494993, #10104b, #050527);
-  background-size: 1600% 1600%;
-  -webkit-animation: crown 20s ease infinite;
-  -moz-animation: crown 20s ease infinite;
-  animation: crown 20s ease infinite;
+  background: linear-gradient(270deg, #020219, #020221, #090941, #090941, #020221, #020219);
+  background-size: 1200% 1200%;
+  -webkit-animation: thirdEye 30s ease infinite;
+  -moz-animation: thirdEye 30s ease infinite;
+  animation: thirdEye 30s ease infinite;
   padding: 0 100px; }
 
-@-webkit-keyframes crown {
+@-webkit-keyframes thirdEye {
   0% {
     background-position: 0% 50%; }
   50% {
@@ -292,7 +321,7 @@ rainbow animation
   100% {
     background-position: 0% 50%; } }
 
-@-moz-keyframes crown {
+@-moz-keyframes thirdEye {
   0% {
     background-position: 0% 50%; }
   50% {
@@ -300,7 +329,7 @@ rainbow animation
   100% {
     background-position: 0% 50%; } }
 
-@keyframes crown {
+@keyframes thirdEye {
   0% {
     background-position: 0% 50%; }
   50% {
@@ -314,17 +343,48 @@ rainbow animation
 .eye-symptoms .unbalanced {
   background: rgba(20, 21, 101, 0.4); }
 
+.eye-guidance .guidance-title {
+  background: linear-gradient(270deg, #020219, #020221, #090941, #090941, #020221, #020219);
+  background-size: 1200% 1200%;
+  -webkit-animation: thirdEye 30s ease infinite;
+  -moz-animation: thirdEye 30s ease infinite;
+  animation: thirdEye 30s ease infinite; }
+
+@-webkit-keyframes thirdEye {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+
+@-moz-keyframes thirdEye {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+
+@keyframes thirdEye {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+
 /************
 rainbow animation
 ************/
 .throat-gradient {
-  background: linear-gradient(269deg, #012735, #026287, #40b7e5, #ade0f4, #ade0f4, #40b7e5, #026287, #012735);
+  background: linear-gradient(270deg, #00070a, #00161f, #012735, #02374b, #02374b, #012735, #00161f, #00070a);
   background-size: 1600% 1600%;
-  -webkit-animation: crown 20s ease infinite;
-  -moz-animation: crown 20s ease infinite;
-  animation: crown 20s ease infinite; }
+  -webkit-animation: heart 30s ease infinite;
+  -moz-animation: heart 30s ease infinite;
+  animation: heart 30s ease infinite; }
 
-@-webkit-keyframes crown {
+@-webkit-keyframes heart {
   0% {
     background-position: 0% 50%; }
   50% {
@@ -332,7 +392,7 @@ rainbow animation
   100% {
     background-position: 0% 50%; } }
 
-@-moz-keyframes crown {
+@-moz-keyframes heart {
   0% {
     background-position: 0% 50%; }
   50% {
@@ -340,7 +400,7 @@ rainbow animation
   100% {
     background-position: 0% 50%; } }
 
-@keyframes crown {
+@keyframes heart {
   0% {
     background-position: 0% 50%; }
   50% {
@@ -354,17 +414,49 @@ rainbow animation
 .throat-symptoms .unbalanced {
   background: rgba(6, 167, 225, 0.4); }
 
+.throat-guidance .guidance-title {
+  background: linear-gradient(270deg, #00070a, #00161f, #012735, #02374b, #02374b, #012735, #00161f, #00070a);
+  background-size: 1600% 1600%;
+  -webkit-animation: heart 30s ease infinite;
+  -moz-animation: heart 30s ease infinite;
+  animation: heart 30s ease infinite; }
+
+@-webkit-keyframes heart {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+
+@-moz-keyframes heart {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+
+@keyframes heart {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+
 /************
 rainbow animation
 ************/
 .heart-gradient {
-  background: linear-gradient(269deg, #000502, #00260f, #177a3f, #3aa264, #3aa264, #177a3f, #00260f, #000502);
-  background-size: 1600% 1600%;
-  -webkit-animation: crown 20s ease infinite;
-  -moz-animation: crown 20s ease infinite;
-  animation: crown 20s ease infinite; }
+  background: linear-gradient(270deg, #000502, #093e1e, #45001e, #45001e, #093e1e, #000502);
+  background-size: 1200% 1200%;
+  -webkit-animation: heart 30s ease infinite;
+  -moz-animation: heart 30s ease infinite;
+  animation: heart 30s ease infinite;
+  padding: 0 60px; }
 
-@-webkit-keyframes crown {
+@-webkit-keyframes heart {
   0% {
     background-position: 0% 50%; }
   50% {
@@ -372,7 +464,7 @@ rainbow animation
   100% {
     background-position: 0% 50%; } }
 
-@-moz-keyframes crown {
+@-moz-keyframes heart {
   0% {
     background-position: 0% 50%; }
   50% {
@@ -380,7 +472,7 @@ rainbow animation
   100% {
     background-position: 0% 50%; } }
 
-@keyframes crown {
+@keyframes heart {
   0% {
     background-position: 0% 50%; }
   50% {
@@ -394,11 +486,42 @@ rainbow animation
 .heart-symptoms .unbalanced {
   background: rgba(0, 82, 33, 0.4); }
 
+.heart-guidance .guidance-title {
+  background: linear-gradient(270deg, #000502, #093e1e, #45001e, #45001e, #093e1e, #000502);
+  background-size: 1200% 1200%;
+  -webkit-animation: heart 30s ease infinite;
+  -moz-animation: heart 30s ease infinite;
+  animation: heart 30s ease infinite; }
+
+@-webkit-keyframes heart {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+
+@-moz-keyframes heart {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+
+@keyframes heart {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+
 /************
 rainbow animation
 ************/
 .solar-gradient {
-  background: linear-gradient(270deg, #050400, #4c4000, #a18a11, #a18a11, #4c4000, #050400);
+  background: linear-gradient(270deg, #120f00, #2c2500, #5f5209, #5f5209, #2c2500, #120f00);
   background-size: 1200% 1200%;
   -webkit-animation: solar 30s ease infinite;
   -moz-animation: solar 30s ease infinite;
@@ -435,11 +558,42 @@ rainbow animation
 .solar-symptoms .unbalanced {
   background: rgba(223, 191, 22, 0.4); }
 
+.solar-guidance .guidance-title {
+  background: linear-gradient(270deg, #120f00, #2c2500, #5f5209, #5f5209, #2c2500, #120f00);
+  background-size: 1200% 1200%;
+  -webkit-animation: solar 30s ease infinite;
+  -moz-animation: solar 30s ease infinite;
+  animation: solar 30s ease infinite; }
+
+@-webkit-keyframes solar {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+
+@-moz-keyframes solar {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+
+@keyframes solar {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+
 /************
 rainbow animation
 ************/
 .sacral-gradient {
-  background: linear-gradient(270deg, #431200, #972900, #da521f, #da521f, #972900, #431200);
+  background: linear-gradient(270deg, #1e0800, #431200, #621b01, #621b01, #431200, #1e0800);
   background-size: 1200% 1200%;
   -webkit-animation: sacral 30s ease infinite;
   -moz-animation: sacral 30s ease infinite;
@@ -476,11 +630,42 @@ rainbow animation
 .sacral-symptoms .unbalanced {
   background: rgba(218, 81, 31, 0.4); }
 
+.sacral-guidance .guidance-title {
+  background: linear-gradient(270deg, #1e0800, #431200, #621b01, #621b01, #431200, #1e0800);
+  background-size: 1200% 1200%;
+  -webkit-animation: sacral 30s ease infinite;
+  -moz-animation: sacral 30s ease infinite;
+  animation: sacral 30s ease infinite; }
+
+@-webkit-keyframes sacral {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+
+@-moz-keyframes sacral {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+
+@keyframes sacral {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+
 /************
 rainbow animation
 ************/
 .root-gradient {
-  background: linear-gradient(270deg, #0c0000, #570000, #b72121, #b72121, #570000, #0c0000);
+  background: linear-gradient(270deg, #180000, #340000, #570000, #570000, #340000, #180000);
   background-size: 1200% 1200%;
   -webkit-animation: root 30s ease infinite;
   -moz-animation: root 30s ease infinite;
@@ -515,6 +700,37 @@ rainbow animation
 
 .root-symptoms .unbalanced {
   background: rgba(139, 3, 4, 0.4); }
+
+.root-guidance .guidance-title {
+  background: linear-gradient(270deg, #180000, #340000, #570000, #570000, #340000, #180000);
+  background-size: 1200% 1200%;
+  -webkit-animation: root 30s ease infinite;
+  -moz-animation: root 30s ease infinite;
+  animation: root 30s ease infinite; }
+
+@-webkit-keyframes root {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+
+@-moz-keyframes root {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+
+@keyframes root {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
 
 .app-container {
   font-family: "Josefin Sans", sans-serif; }

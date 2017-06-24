@@ -1,28 +1,30 @@
 @import '../../globalVariables.scss';
 
 .heart-gradient {
-    background: linear-gradient(269deg, #000502, #00260f, #177a3f, #3aa264, #3aa264, #177a3f, #00260f, #000502);
-    background-size: 1600% 1600%;
+    background: linear-gradient(270deg, #000502, #093e1e, #45001e, #45001e, #093e1e, #000502);
+    background-size: 1200% 1200%;
 
-    -webkit-animation: crown 20s ease infinite;
-    -moz-animation: crown 20s ease infinite;
-    animation: crown 20s ease infinite;
+    -webkit-animation: heart 30s ease infinite;
+    -moz-animation: heart 30s ease infinite;
+    animation: heart 30s ease infinite;
 
-    @-webkit-keyframes crown {
+    @-webkit-keyframes heart {
         0%{background-position:0% 50%}
         50%{background-position:100% 50%}
         100%{background-position:0% 50%}
     }
-    @-moz-keyframes crown {
+    @-moz-keyframes heart {
         0%{background-position:0% 50%}
         50%{background-position:100% 50%}
         100%{background-position:0% 50%}
     }
-    @keyframes crown { 
+    @keyframes heart { 
         0%{background-position:0% 50%}
         50%{background-position:100% 50%}
         100%{background-position:0% 50%}
     }
+
+    padding: 0 60px;
 
 }
 
@@ -33,5 +35,32 @@
 
     .unbalanced {
         background: $Oheart;
+    }
+}
+
+.heart-guidance {
+    .guidance-title {
+        background: linear-gradient(270deg, #000502, #093e1e, #45001e, #45001e, #093e1e, #000502);
+        background-size: 1200% 1200%;
+
+        -webkit-animation: heart 30s ease infinite;
+        -moz-animation: heart 30s ease infinite;
+        animation: heart 30s ease infinite;
+
+        @-webkit-keyframes heart {
+            0%{background-position:0% 50%}
+            50%{background-position:100% 50%}
+            100%{background-position:0% 50%}
+        }
+        @-moz-keyframes heart {
+            0%{background-position:0% 50%}
+            50%{background-position:100% 50%}
+            100%{background-position:0% 50%}
+        }
+        @keyframes heart { 
+            0%{background-position:0% 50%}
+            50%{background-position:100% 50%}
+            100%{background-position:0% 50%}
+        }
     }
 }

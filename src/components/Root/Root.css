@@ -2,7 +2,7 @@
 rainbow animation
 ************/
 .root-gradient {
-  background: linear-gradient(270deg, #0c0000, #570000, #b72121, #b72121, #570000, #0c0000);
+  background: linear-gradient(270deg, #180000, #340000, #570000, #570000, #340000, #180000);
   background-size: 1200% 1200%;
   -webkit-animation: root 30s ease infinite;
   -moz-animation: root 30s ease infinite;
@@ -37,3 +37,34 @@ rainbow animation
 
 .root-symptoms .unbalanced {
   background: rgba(139, 3, 4, 0.4); }
+
+.root-guidance .guidance-title {
+  background: linear-gradient(270deg, #180000, #340000, #570000, #570000, #340000, #180000);
+  background-size: 1200% 1200%;
+  -webkit-animation: root 30s ease infinite;
+  -moz-animation: root 30s ease infinite;
+  animation: root 30s ease infinite; }
+
+@-webkit-keyframes root {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+
+@-moz-keyframes root {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+
+@keyframes root {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }

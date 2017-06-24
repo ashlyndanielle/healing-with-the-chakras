@@ -4,14 +4,14 @@ rainbow animation
 .chakra-container {
   height: 100vh; }
   .chakra-container .crown-gradient {
-    background: linear-gradient(269deg, #000001, #23012c, #742288, #ac6abc, #ac6abc, #742288, #23012c, #000001);
-    background-size: 1600% 1600%;
-    -webkit-animation: crown 20s ease infinite;
-    -moz-animation: crown 20s ease infinite;
-    animation: crown 20s ease infinite;
+    background: linear-gradient(270deg, #010001, #130018, #32063f, #32063f, #130018, #010001);
+    background-size: 1200% 1200%;
+    -webkit-animation: thirdEye 30s ease infinite;
+    -moz-animation: thirdEye 30s ease infinite;
+    animation: thirdEye 30s ease infinite;
     padding: 0 90px; }
 
-@-webkit-keyframes crown {
+@-webkit-keyframes thirdEye {
   0% {
     background-position: 0% 50%; }
   50% {
@@ -19,7 +19,7 @@ rainbow animation
   100% {
     background-position: 0% 50%; } }
 
-@-moz-keyframes crown {
+@-moz-keyframes thirdEye {
   0% {
     background-position: 0% 50%; }
   50% {
@@ -27,7 +27,7 @@ rainbow animation
   100% {
     background-position: 0% 50%; } }
 
-@keyframes crown {
+@keyframes thirdEye {
   0% {
     background-position: 0% 50%; }
   50% {
@@ -47,52 +47,33 @@ rainbow animation
     background-size: cover;
     background-position: top;
     background-attachment: fixed; }
-    .chakra-container .crown-symptoms .balanced {
-      background: rgba(76, 6, 92, 0.4); }
-    .chakra-container .crown-symptoms .unbalanced {
-      background: rgba(76, 6, 92, 0.4); }
-  .chakra-container .guidance {
-    color: #f5f6f8;
-    background: url(./Images/divine.jpg);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed; }
-    .chakra-container .guidance .black {
-      background: rgba(0, 0, 0, 0.5); }
-    .chakra-container .guidance .line-div {
-      width: 33%;
-      display: inline-block; }
-    .chakra-container .guidance .guidance-title {
-      width: 100%;
-      background: black;
-      color: #f5f6f8;
-      font-size: 22px;
-      text-align: center;
-      padding: 40px 0; }
-      .chakra-container .guidance .guidance-title h1 {
-        letter-spacing: 10px; }
-      .chakra-container .guidance .guidance-title p {
-        letter-spacing: 1px;
-        font-family: "Lato", sans-serif;
-        font-size: 18px; }
-    .chakra-container .guidance .meditation {
-      padding-top: 50px;
-      padding-bottom: 20px;
-      text-align: center;
-      letter-spacing: 8px; }
-      .chakra-container .guidance .meditation .steps {
-        display: flex;
-        justify-content: space-around;
-        align-items: flex-end;
-        font-size: 12px;
-        padding-top: 200px;
-        padding-bottom: 20px;
-        line-height: 2em; }
-        .chakra-container .guidance .meditation .steps div {
-          width: 17%;
-          font-family: "Lato", sans-serif;
-          font-size: 18px;
-          text-align: center; }
-      .chakra-container .guidance .meditation p {
-        padding: 0;
-        margin: 0; }
+  .chakra-container .crown-guidance .guidance-title {
+    background: linear-gradient(270deg, #010001, #130018, #32063f, #32063f, #130018, #010001);
+    background-size: 1200% 1200%;
+    -webkit-animation: thirdEye 30s ease infinite;
+    -moz-animation: thirdEye 30s ease infinite;
+    animation: thirdEye 30s ease infinite; }
+
+@-webkit-keyframes thirdEye {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+
+@-moz-keyframes thirdEye {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+
+@keyframes thirdEye {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
