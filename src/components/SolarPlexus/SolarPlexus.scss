@@ -1,5 +1,15 @@
 @import '../../globalVariables.scss';
 
+.solar-title {
+    .yoga {
+        height: 59vh;
+        position: relative;
+        top: -325px;
+        right: -10px;
+        // opacity: 0.5;
+    }
+}
+
 .solar-gradient {
     background: linear-gradient(270deg, #2c2500, #5f5209, #D3A600, #D3A600, #5f5209, #2c2500);
     background-size: 1200% 1200%;
@@ -29,7 +39,7 @@
 }
 
 .solar-symptoms {
-    background: url(./Images/symptomsSolar.jpg);
+    background: url(./Images/solarPFlower.jpg);
     background-size: cover;
     background-position: top;
     background-attachment: fixed;

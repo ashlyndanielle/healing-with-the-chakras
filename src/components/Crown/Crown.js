@@ -5,6 +5,8 @@ import Symptoms from '../Shared/Symptoms';
 import Guidance from '../Shared/Guidance';
 import MainInfo from '../Shared/MainInfo';
 
+import yoga from '../../Images/yoga.svg';
+
 class Crown extends Component {
     render() {
 
@@ -28,8 +30,8 @@ class Crown extends Component {
         return (
             <div className='chakra-container'>
 
-                <section className='home-title'>
-                    <MainInfo main='Crown' />
+                <section className='home-title crown-title'>
+                    <MainInfo main='Crown' yoga={yoga}/>
                 </section>
                 <div className='crown-gradient'>
                     <Description 

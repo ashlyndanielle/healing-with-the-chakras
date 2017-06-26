@@ -5,6 +5,8 @@ import Description from '../Shared/Description';
 import Guidance from '../Shared/Guidance';
 import MainInfo from '../Shared/MainInfo';
 
+import yoga2 from '../../Images/yoga2.png'
+
 
 class Heart extends Component {
     render() {
@@ -27,8 +29,8 @@ class Heart extends Component {
 
         return (
             <div className='chakra-container'>
-                <section className='home-title'>
-                    <MainInfo main='Heart' />
+                <section className='home-title heart-title'>
+                    <MainInfo main='Heart' yoga={yoga2}/>
                 </section>
                 <div className='heart-gradient'>
                     <Description 

@@ -3,7 +3,8 @@ import React from 'react';
 const MainInfo = (props) => {
     return (
         <div>
-            <p>{props.main}</p>
+            <p className='main'>{props.main}</p>
+            <img className='yoga' src={props.yoga} alt=''/>
         </div>
     );
 };

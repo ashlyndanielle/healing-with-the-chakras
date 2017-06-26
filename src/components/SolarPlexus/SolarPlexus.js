@@ -5,6 +5,7 @@ import Description from '../Shared/Description';
 import Guidance from '../Shared/Guidance';
 import MainInfo from '../Shared/MainInfo';
 
+import yoga4 from '../../Images/yoga4.png';
 
 class SolarPlexus extends Component {
     render() {
@@ -27,8 +28,8 @@ class SolarPlexus extends Component {
 
         return (
             <div className='chakra-container'>
-                <section className='home-title'>
-                    <MainInfo main='Solar Plexus' />
+                <section className='home-title solar-title'>
+                    <MainInfo main='Solar Plexus' yoga={yoga4}/>
                 </section>
                 <div className='solar-gradient'>
                     <Description 

@@ -1,6 +1,12 @@
 /************
 rainbow animation
 ************/
+.crown-title .yoga {
+  height: 59vh;
+  position: relative;
+  top: -325px;
+  right: -60px; }
+
 .chakra-container {
   height: 100vh; }
   .chakra-container .crown-gradient {

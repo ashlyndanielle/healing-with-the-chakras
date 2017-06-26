@@ -136,7 +136,7 @@ rainbow animation
   margin: 0;
   display: flex;
   justify-content: space-between;
-  color: white; }
+  color: #d8d8d8; }
   .landing-container .chakra-box {
     padding-top: 10px;
     margin: 7px;
@@ -228,6 +228,12 @@ Everything
 /************
 rainbow animation
 ************/
+.crown-title .yoga {
+  height: 59vh;
+  position: relative;
+  top: -325px;
+  right: -60px; }
+
 .chakra-container {
   height: 100vh; }
   .chakra-container .crown-gradient {
@@ -313,6 +319,12 @@ rainbow animation
 /************
 rainbow animation
 ************/
+.eye-title .yoga {
+  height: 59vh;
+  position: relative;
+  top: -325px;
+  right: 0px; }
+
 .eye-gradient {
   background: linear-gradient(270deg, #020219, #020221, #090941, #090941, #020221, #020219);
   background-size: 1200% 1200%;
@@ -389,6 +401,12 @@ rainbow animation
 /************
 rainbow animation
 ************/
+.throat-title .yoga {
+  height: 59vh;
+  position: relative;
+  top: -325px;
+  right: -10px; }
+
 .throat-gradient {
   background: linear-gradient(270deg, #00070a, #00161f, #012735, #02374b, #02374b, #02374b, #012735, #00161f, #00070a);
   background-size: 1600% 1600%;
@@ -464,6 +482,12 @@ rainbow animation
 /************
 rainbow animation
 ************/
+.heart-title .yoga {
+  height: 59vh;
+  position: relative;
+  top: -325px;
+  right: 0px; }
+
 .heart-gradient {
   background: linear-gradient(270deg, #000502, #093e1e, #45001e, #45001e, #093e1e, #000502);
   background-size: 1200% 1200%;
@@ -540,6 +564,12 @@ rainbow animation
 /************
 rainbow animation
 ************/
+.solar-title .yoga {
+  height: 59vh;
+  position: relative;
+  top: -325px;
+  right: -10px; }
+
 .solar-gradient {
   background: linear-gradient(270deg, #2c2500, #5f5209, #D3A600, #D3A600, #5f5209, #2c2500);
   background-size: 1200% 1200%;
@@ -573,7 +603,7 @@ rainbow animation
     background-position: 0% 50%; } }
 
 .solar-symptoms {
-  background: url(./Images/symptomsSolar.jpg);
+  background: url(./Images/solarPFlower.jpg);
   background-size: cover;
   background-position: top;
   background-attachment: fixed; }
@@ -616,6 +646,12 @@ rainbow animation
 /************
 rainbow animation
 ************/
+.sacral-title .yoga {
+  height: 59vh;
+  position: relative;
+  top: -325px;
+  right: 0px; }
+
 .sacral-gradient {
   background: linear-gradient(270deg, #1e0800, #431200, #621b01, #621b01, #431200, #1e0800);
   background-size: 1200% 1200%;
@@ -692,6 +728,12 @@ rainbow animation
 /************
 rainbow animation
 ************/
+.root-title .yoga {
+  height: 59vh;
+  position: relative;
+  top: -325px;
+  right: -60px; }
+
 .root-gradient {
   background: linear-gradient(270deg, #180000, #340000, #570000, #570000, #340000, #180000);
   background-size: 1200% 1200%;
@@ -764,13 +806,11 @@ rainbow animation
   100% {
     background-position: 0% 50%; } }
 
-p {
+.main {
   font-family: 'Courgette';
   font-size: 72px;
   font-weight: 700;
-  padding: 70px 0 0 205px;
-  position: relative;
-  z-index: 10; }
+  padding: 70px 0 0 250px; }
 
 .app-container {
   font-family: "Josefin Sans", sans-serif; }

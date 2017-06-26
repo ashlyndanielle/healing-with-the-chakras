@@ -5,6 +5,8 @@ import Description from '../Shared/Description';
 import Guidance from '../Shared/Guidance';
 import MainInfo from '../Shared/MainInfo';
 
+import yoga5 from '../../Images/yoga5.png';
+
 
 class ThirdEye extends Component {
     render() {
@@ -28,8 +30,8 @@ class ThirdEye extends Component {
 
         return (
             <div className='chakra-container'>
-                <section className='home-title'>
-                    <MainInfo main='Third Eye' />
+                <section className='home-title eye-title'>
+                    <MainInfo main='Third Eye' yoga={yoga5}/>
                 </section>
                  <div className='eye-gradient'>
                     <Description 

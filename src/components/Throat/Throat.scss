@@ -1,5 +1,15 @@
 @import '../../globalVariables.scss';
 
+.throat-title {
+    .yoga {
+        height: 59vh;
+        position: relative;
+        top: -325px;
+        right: -10px;
+        // opacity: 0.5;
+    }
+}
+
 .throat-gradient {
     background: linear-gradient(270deg, #00070a, #00161f, #012735, #02374b, #02374b, #02374b, #012735, #00161f, #00070a);
     background-size: 1600% 1600%;

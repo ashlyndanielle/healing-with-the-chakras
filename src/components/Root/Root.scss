@@ -1,4 +1,14 @@
 @import '../../globalVariables.scss';
+.root-title {
+    .yoga {
+        height: 59vh;
+        position: relative;
+        top: -325px;
+        right: -60px;
+        // opacity: 0.5;
+    }
+}
+
 .root-gradient {
     background: linear-gradient(270deg, #180000, #340000, #570000, #570000, #340000, #180000);
     background-size: 1200% 1200%;

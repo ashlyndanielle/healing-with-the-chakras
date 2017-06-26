@@ -1,7 +1,5 @@
-p {
+.main {
   font-family: 'Courgette';
   font-size: 72px;
   font-weight: 700;
-  padding: 70px 0 0 205px;
-  position: relative;
-  z-index: 10; }
+  padding: 70px 0 0 250px; }

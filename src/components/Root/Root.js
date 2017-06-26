@@ -5,6 +5,8 @@ import Description from '../Shared/Description';
 import Guidance from '../Shared/Guidance';
 import MainInfo from '../Shared/MainInfo';
 
+import yoga from '../../Images/yoga.svg'
+
 import './Root.scss'
 
 class Root extends Component {
@@ -28,8 +30,8 @@ class Root extends Component {
 
         return (
             <div className='chakra-container'>
-                <section className='home-title'>
-                    <MainInfo main='Root' />
+                <section className='home-title root-title'>
+                    <MainInfo main='Root' yoga={yoga}/>
                 </section>
                 <div className='root-gradient'>
                     <Description

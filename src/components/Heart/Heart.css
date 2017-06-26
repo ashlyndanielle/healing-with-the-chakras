@@ -1,6 +1,12 @@
 /************
 rainbow animation
 ************/
+.heart-title .yoga {
+  height: 59vh;
+  position: relative;
+  top: -325px;
+  right: 0px; }
+
 .heart-gradient {
   background: linear-gradient(270deg, #000502, #093e1e, #45001e, #45001e, #093e1e, #000502);
   background-size: 1200% 1200%;

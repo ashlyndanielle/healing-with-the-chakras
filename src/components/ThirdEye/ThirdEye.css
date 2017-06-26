@@ -1,6 +1,12 @@
 /************
 rainbow animation
 ************/
+.eye-title .yoga {
+  height: 59vh;
+  position: relative;
+  top: -325px;
+  right: 0px; }
+
 .eye-gradient {
   background: linear-gradient(270deg, #020219, #020221, #090941, #090941, #020221, #020219);
   background-size: 1200% 1200%;

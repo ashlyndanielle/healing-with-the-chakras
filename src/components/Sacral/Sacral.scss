@@ -1,4 +1,15 @@
 @import '../../globalVariables.scss';
+
+.sacral-title {
+    .yoga {
+        height: 59vh;
+        position: relative;
+        top: -325px;
+        right: 0px;
+        // opacity: 0.5;
+    }
+}
+
 .sacral-gradient {
     background: linear-gradient(270deg, #1e0800, #431200, #621b01, #621b01, #431200, #1e0800);
     background-size: 1200% 1200%;

@@ -5,6 +5,7 @@ import Description from '../Shared/Description';
 import Guidance from '../Shared/Guidance';
 import MainInfo from '../Shared/MainInfo';
 
+import yoga4 from '../../Images/yoga4.png';
 
 class Throat extends Component {
     render() {
@@ -28,8 +29,8 @@ class Throat extends Component {
 
         return (
             <div className='chakra-container'>
-                <section className='home-title'>
-                    <MainInfo main='Throat' />
+                <section className='home-title throat-title'>
+                    <MainInfo main='Throat' yoga={yoga4}/>
                 </section>
                 <div className='throat-gradient'>
                     <Description 
