@@ -29,6 +29,10 @@
 }
 
 .solar-symptoms {
+    background: url(./Images/symptomsSolar.jpg);
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
     .balanced {
         background: $Osolar;
     }

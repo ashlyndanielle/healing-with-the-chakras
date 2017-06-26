@@ -28,6 +28,10 @@
 }
 
 .eye-symptoms {
+    background: url(./Images/symptomsEye1.jpg);
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
     .balanced {
         background: $Oeye;
     }

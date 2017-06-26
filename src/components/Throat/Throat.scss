@@ -27,6 +27,10 @@
 }
 
 .throat-symptoms {
+    background: url(./Images/symptomsThroat.jpg);
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
     .balanced {
         background: $Othroat;
     }

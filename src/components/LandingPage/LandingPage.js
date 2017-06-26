@@ -11,7 +11,11 @@ class LandingPage extends Component {
     render() {
 
         // jquery here
-         
+        // $(document).ready(function(){
+
+        // });
+        
+
         return (
             <div className='landing-container'>
                 <section className='root chakra-box' onClick={() => this.props.history.push('/root')}>MULADHARA</section>

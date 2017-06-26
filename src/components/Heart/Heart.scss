@@ -29,6 +29,10 @@
 }
 
 .heart-symptoms {
+    background: url(./Images/symptomsHeart.jpg);
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
     .balanced {
         background: $Oheart;
     }

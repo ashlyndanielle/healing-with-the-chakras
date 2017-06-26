@@ -47,6 +47,10 @@ rainbow animation
     background-size: cover;
     background-position: top;
     background-attachment: fixed; }
+    .chakra-container .crown-symptoms .balanced {
+      background: rgba(76, 6, 92, 0.4); }
+    .chakra-container .crown-symptoms .unbalanced {
+      background: rgba(76, 6, 92, 0.4); }
   .chakra-container .crown-guidance .guidance-title {
     background: linear-gradient(270deg, #010001, #130018, #32063f, #32063f, #130018, #010001);
     background-size: 1200% 1200%;

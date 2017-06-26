@@ -33,11 +33,15 @@ rainbow animation
   100% {
     background-position: 0% 50%; } }
 
-.heart-symptoms .balanced {
-  background: rgba(0, 82, 33, 0.4); }
-
-.heart-symptoms .unbalanced {
-  background: rgba(0, 82, 33, 0.4); }
+.heart-symptoms {
+  background: url(./Images/symptomsHeart.jpg);
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed; }
+  .heart-symptoms .balanced {
+    background: rgba(0, 82, 33, 0.4); }
+  .heart-symptoms .unbalanced {
+    background: rgba(0, 82, 33, 0.4); }
 
 .heart-guidance .guidance-title {
   background: linear-gradient(270deg, #000502, #093e1e, #45001e, #45001e, #093e1e, #000502);

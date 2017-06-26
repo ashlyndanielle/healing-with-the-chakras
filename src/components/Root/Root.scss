@@ -26,6 +26,10 @@
 }
 
 .root-symptoms {
+    background: url(./Images/symptomsRoot.jpg);
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
     .balanced {
         background: $Oroot;
     }

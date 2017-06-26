@@ -33,11 +33,15 @@ rainbow animation
   100% {
     background-position: 0% 50%; } }
 
-.eye-symptoms .balanced {
-  background: rgba(20, 21, 101, 0.4); }
-
-.eye-symptoms .unbalanced {
-  background: rgba(20, 21, 101, 0.4); }
+.eye-symptoms {
+  background: url(./Images/symptomsEye1.jpg);
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed; }
+  .eye-symptoms .balanced {
+    background: rgba(20, 21, 101, 0.4); }
+  .eye-symptoms .unbalanced {
+    background: rgba(20, 21, 101, 0.4); }
 
 .eye-guidance .guidance-title {
   background: linear-gradient(270deg, #020219, #020221, #090941, #090941, #020221, #020219);

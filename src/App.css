@@ -38,7 +38,6 @@ rainbow animation
 rainbow animation
 ************/
 .symptoms {
-  background: url(./Images/symptomsCrown.jpg);
   background-size: cover;
   background-position: top;
   background-attachment: fixed;
@@ -271,6 +270,10 @@ rainbow animation
     background-size: cover;
     background-position: top;
     background-attachment: fixed; }
+    .chakra-container .crown-symptoms .balanced {
+      background: rgba(76, 6, 92, 0.4); }
+    .chakra-container .crown-symptoms .unbalanced {
+      background: rgba(76, 6, 92, 0.4); }
   .chakra-container .crown-guidance .guidance-title {
     background: linear-gradient(270deg, #010001, #130018, #32063f, #32063f, #130018, #010001);
     background-size: 1200% 1200%;
@@ -337,11 +340,15 @@ rainbow animation
   100% {
     background-position: 0% 50%; } }
 
-.eye-symptoms .balanced {
-  background: rgba(20, 21, 101, 0.4); }
-
-.eye-symptoms .unbalanced {
-  background: rgba(20, 21, 101, 0.4); }
+.eye-symptoms {
+  background: url(./Images/symptomsEye1.jpg);
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed; }
+  .eye-symptoms .balanced {
+    background: rgba(20, 21, 101, 0.4); }
+  .eye-symptoms .unbalanced {
+    background: rgba(20, 21, 101, 0.4); }
 
 .eye-guidance .guidance-title {
   background: linear-gradient(270deg, #020219, #020221, #090941, #090941, #020221, #020219);
@@ -408,11 +415,15 @@ rainbow animation
   100% {
     background-position: 0% 50%; } }
 
-.throat-symptoms .balanced {
-  background: rgba(6, 167, 225, 0.4); }
-
-.throat-symptoms .unbalanced {
-  background: rgba(6, 167, 225, 0.4); }
+.throat-symptoms {
+  background: url(./Images/symptomsThroat.jpg);
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed; }
+  .throat-symptoms .balanced {
+    background: rgba(6, 167, 225, 0.4); }
+  .throat-symptoms .unbalanced {
+    background: rgba(6, 167, 225, 0.4); }
 
 .throat-guidance .guidance-title {
   background: linear-gradient(270deg, #00070a, #00161f, #012735, #02374b, #02374b, #012735, #00161f, #00070a);
@@ -480,11 +491,15 @@ rainbow animation
   100% {
     background-position: 0% 50%; } }
 
-.heart-symptoms .balanced {
-  background: rgba(0, 82, 33, 0.4); }
-
-.heart-symptoms .unbalanced {
-  background: rgba(0, 82, 33, 0.4); }
+.heart-symptoms {
+  background: url(./Images/symptomsHeart.jpg);
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed; }
+  .heart-symptoms .balanced {
+    background: rgba(0, 82, 33, 0.4); }
+  .heart-symptoms .unbalanced {
+    background: rgba(0, 82, 33, 0.4); }
 
 .heart-guidance .guidance-title {
   background: linear-gradient(270deg, #000502, #093e1e, #45001e, #45001e, #093e1e, #000502);
@@ -552,11 +567,15 @@ rainbow animation
   100% {
     background-position: 0% 50%; } }
 
-.solar-symptoms .balanced {
-  background: rgba(223, 191, 22, 0.4); }
-
-.solar-symptoms .unbalanced {
-  background: rgba(223, 191, 22, 0.4); }
+.solar-symptoms {
+  background: url(./Images/symptomsSolar.jpg);
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed; }
+  .solar-symptoms .balanced {
+    background: rgba(223, 191, 22, 0.4); }
+  .solar-symptoms .unbalanced {
+    background: rgba(223, 191, 22, 0.4); }
 
 .solar-guidance .guidance-title {
   background: linear-gradient(270deg, #120f00, #2c2500, #5f5209, #5f5209, #2c2500, #120f00);
@@ -624,11 +643,15 @@ rainbow animation
   100% {
     background-position: 0% 50%; } }
 
-.sacral-symptoms .balanced {
-  background: rgba(218, 81, 31, 0.4); }
-
-.sacral-symptoms .unbalanced {
-  background: rgba(218, 81, 31, 0.4); }
+.sacral-symptoms {
+  background: url(./Images/symptomsSacral1.jpg);
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed; }
+  .sacral-symptoms .balanced {
+    background: rgba(218, 81, 31, 0.4); }
+  .sacral-symptoms .unbalanced {
+    background: rgba(218, 81, 31, 0.4); }
 
 .sacral-guidance .guidance-title {
   background: linear-gradient(270deg, #1e0800, #431200, #621b01, #621b01, #431200, #1e0800);
@@ -695,11 +718,15 @@ rainbow animation
   100% {
     background-position: 0% 50%; } }
 
-.root-symptoms .balanced {
-  background: rgba(139, 3, 4, 0.4); }
-
-.root-symptoms .unbalanced {
-  background: rgba(139, 3, 4, 0.4); }
+.root-symptoms {
+  background: url(./Images/symptomsRoot.jpg);
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed; }
+  .root-symptoms .balanced {
+    background: rgba(139, 3, 4, 0.4); }
+  .root-symptoms .unbalanced {
+    background: rgba(139, 3, 4, 0.4); }
 
 .root-guidance .guidance-title {
   background: linear-gradient(270deg, #180000, #340000, #570000, #570000, #340000, #180000);

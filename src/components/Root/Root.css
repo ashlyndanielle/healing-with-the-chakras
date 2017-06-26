@@ -32,11 +32,15 @@ rainbow animation
   100% {
     background-position: 0% 50%; } }
 
-.root-symptoms .balanced {
-  background: rgba(139, 3, 4, 0.4); }
-
-.root-symptoms .unbalanced {
-  background: rgba(139, 3, 4, 0.4); }
+.root-symptoms {
+  background: url(./Images/symptomsRoot.jpg);
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed; }
+  .root-symptoms .balanced {
+    background: rgba(139, 3, 4, 0.4); }
+  .root-symptoms .unbalanced {
+    background: rgba(139, 3, 4, 0.4); }
 
 .root-guidance .guidance-title {
   background: linear-gradient(270deg, #180000, #340000, #570000, #570000, #340000, #180000);

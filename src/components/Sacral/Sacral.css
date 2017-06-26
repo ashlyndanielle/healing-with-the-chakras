@@ -33,11 +33,15 @@ rainbow animation
   100% {
     background-position: 0% 50%; } }
 
-.sacral-symptoms .balanced {
-  background: rgba(218, 81, 31, 0.4); }
-
-.sacral-symptoms .unbalanced {
-  background: rgba(218, 81, 31, 0.4); }
+.sacral-symptoms {
+  background: url(./Images/symptomsSacral1.jpg);
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed; }
+  .sacral-symptoms .balanced {
+    background: rgba(218, 81, 31, 0.4); }
+  .sacral-symptoms .unbalanced {
+    background: rgba(218, 81, 31, 0.4); }
 
 .sacral-guidance .guidance-title {
   background: linear-gradient(270deg, #1e0800, #431200, #621b01, #621b01, #431200, #1e0800);

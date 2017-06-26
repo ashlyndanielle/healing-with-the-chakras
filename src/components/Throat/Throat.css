@@ -32,11 +32,15 @@ rainbow animation
   100% {
     background-position: 0% 50%; } }
 
-.throat-symptoms .balanced {
-  background: rgba(6, 167, 225, 0.4); }
-
-.throat-symptoms .unbalanced {
-  background: rgba(6, 167, 225, 0.4); }
+.throat-symptoms {
+  background: url(./Images/symptomsThroat.jpg);
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed; }
+  .throat-symptoms .balanced {
+    background: rgba(6, 167, 225, 0.4); }
+  .throat-symptoms .unbalanced {
+    background: rgba(6, 167, 225, 0.4); }
 
 .throat-guidance .guidance-title {
   background: linear-gradient(270deg, #00070a, #00161f, #012735, #02374b, #02374b, #012735, #00161f, #00070a);
