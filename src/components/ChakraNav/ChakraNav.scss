@@ -11,9 +11,9 @@ Everything
 
   
   .chakras {
-    padding: 10px 0px;
+    padding: 20px 0px;
     margin: 0;
-    color: white;
+    color: $about;
     font-size: 12px;
     font-weight: 700;
     text-align: center;
@@ -27,8 +27,8 @@ Everything
   .chakra-links {
     box-sizing: border-box;
     padding: 10px;
-    padding-right: 35px;
-    padding-left: 35px;
+    padding-right: 55px;
+    padding-left: 55px;
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
@@ -60,7 +60,7 @@ Everything
     h1 {
       padding: 10px 0px;
       margin: 0;
-      color: white;
+      color: $about;
       font-size: 12px;
       text-align: center;
       background: black;

@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import Symptoms from '../Shared/Symptoms';
 import Description from '../Shared/Description';
 import Guidance from '../Shared/Guidance';
+import MainInfo from '../Shared/MainInfo';
 
 
 class SolarPlexus extends Component {
@@ -26,7 +27,9 @@ class SolarPlexus extends Component {
 
         return (
             <div className='chakra-container'>
-                <section className='home-title'></section>
+                <section className='home-title'>
+                    <MainInfo main='Solar Plexus' />
+                </section>
                 <div className='solar-gradient'>
                     <Description 
                         subtitle='manipura'

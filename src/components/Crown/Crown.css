@@ -41,7 +41,8 @@ rainbow animation
     background-attachment: fixed;
     height: 57vh;
     width: 100%;
-    padding-top: 30px; }
+    padding-top: 30px;
+    color: linear-gradient(135deg, red, blue); }
   .chakra-container .crown-symptoms {
     background: url(./Images/symptomsCrown.jpg);
     background-size: cover;

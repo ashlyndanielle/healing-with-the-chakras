@@ -44,3 +44,7 @@ rainbow animation
     background: url(./Images/thirdEyeGalaxy.jpg); }
   .landing-container .crown {
     background: url(./Images/crownGalaxy.png); }
+
+.animate {
+  position: fixed;
+  z-index: 50; }

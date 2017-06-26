@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import Symptoms from '../Shared/Symptoms';
 import Description from '../Shared/Description';
 import Guidance from '../Shared/Guidance';
+import MainInfo from '../Shared/MainInfo';
 
 
 class Throat extends Component {
@@ -27,7 +28,9 @@ class Throat extends Component {
 
         return (
             <div className='chakra-container'>
-                <section className='home-title'></section>
+                <section className='home-title'>
+                    <MainInfo main='Throat' />
+                </section>
                 <div className='throat-gradient'>
                     <Description 
                         subtitle='vishuddha'

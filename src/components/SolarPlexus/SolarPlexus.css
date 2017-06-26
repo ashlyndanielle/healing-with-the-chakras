@@ -2,7 +2,7 @@
 rainbow animation
 ************/
 .solar-gradient {
-  background: linear-gradient(270deg, #120f00, #2c2500, #5f5209, #5f5209, #2c2500, #120f00);
+  background: linear-gradient(270deg, #2c2500, #5f5209, #D3A600, #D3A600, #5f5209, #2c2500);
   background-size: 1200% 1200%;
   -webkit-animation: solar 30s ease infinite;
   -moz-animation: solar 30s ease infinite;
@@ -44,7 +44,7 @@ rainbow animation
     background: rgba(223, 191, 22, 0.4); }
 
 .solar-guidance .guidance-title {
-  background: linear-gradient(270deg, #120f00, #2c2500, #5f5209, #5f5209, #2c2500, #120f00);
+  background: linear-gradient(270deg, #2c2500, #5f5209, #D3A600, #D3A600, #5f5209, #2c2500);
   background-size: 1200% 1200%;
   -webkit-animation: solar 30s ease infinite;
   -moz-animation: solar 30s ease infinite;

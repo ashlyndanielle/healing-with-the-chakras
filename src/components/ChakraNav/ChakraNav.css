@@ -12,9 +12,9 @@ Everything
   landing-page link
   *****************/ }
   .nav-container .chakras {
-    padding: 10px 0px;
+    padding: 20px 0px;
     margin: 0;
-    color: white;
+    color: #d8d8d8;
     font-size: 12px;
     font-weight: 700;
     text-align: center;
@@ -24,14 +24,14 @@ Everything
   .nav-container .chakra-links {
     box-sizing: border-box;
     padding: 10px;
-    padding-right: 35px;
-    padding-left: 35px;
+    padding-right: 55px;
+    padding-left: 55px;
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
     justify-content: space-between;
     height: 100%;
-    background: #f5f6f8; }
+    background: #d8d8d8; }
     .nav-container .chakra-links img {
       width: 100px; }
     .nav-container .chakra-links img:hover {
@@ -41,7 +41,7 @@ Everything
     .nav-container .landing-link h1 {
       padding: 10px 0px;
       margin: 0;
-      color: white;
+      color: #d8d8d8;
       font-size: 12px;
       text-align: center;
       background: black;

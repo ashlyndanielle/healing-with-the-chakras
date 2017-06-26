@@ -10,10 +10,65 @@ class LandingPage extends Component {
 
     render() {
 
-        // jquery here
-        // $(document).ready(function(){
+        $(document).ready(function(){
 
-        // });
+// root
+            $('.root').hover(function(){
+                $('#red').css('transform', 'scale(1.1)')
+            }
+            , function(){
+                $('#red').css('transform', 'scale(1)')
+            })
+
+// sacral
+            $('.sacral').hover(function(){
+                $('#orange').css('transform', 'scale(1.1)')
+            }
+            , function(){
+                $('#orange').css('transform', 'scale(1)')
+            })
+
+// solar
+            $('.solar-plexus').hover(function(){
+                $('#yellow').css('transform', 'scale(1.1)')
+            }
+            , function(){
+                $('#yellow').css('transform', 'scale(1)')
+            })
+
+// heart
+            $('.heart').hover(function(){
+                $('#green').css('transform', 'scale(1.1)')
+            }
+            , function(){
+                $('#green').css('transform', 'scale(1)')
+            })
+
+// throat
+            $('.throat').hover(function(){
+                $('#blue').css('transform', 'scale(1.1)')
+            }
+            , function(){
+                $('#blue').css('transform', 'scale(1)')
+            })
+
+// third-eye
+            $('.third-eye').hover(function(){
+                $('#indigo').css('transform', 'scale(1.1)')
+            }
+            , function(){
+                $('#indigo').css('transform', 'scale(1)')
+            })
+
+// crown
+            $('.crown').hover(function(){
+                $('#purple').css('transform', 'scale(1.1)')
+            }
+            , function(){
+                $('#purple').css('transform', 'scale(1)')
+            })
+            
+        });
         
 
         return (

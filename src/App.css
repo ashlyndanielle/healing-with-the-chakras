@@ -8,7 +8,7 @@ rainbow animation
 ************/
 .description {
   padding: 10px;
-  color: #f5f6f8;
+  color: #d8d8d8;
   text-align: center; }
   .description .line-div {
     width: 33%;
@@ -41,7 +41,7 @@ rainbow animation
   background-size: cover;
   background-position: top;
   background-attachment: fixed;
-  color: #f5f6f8;
+  color: #d8d8d8;
   height: 70vh;
   display: flex;
   flex-direction: column;
@@ -78,7 +78,7 @@ rainbow animation
 rainbow animation
 ************/
 .guidance {
-  color: #f5f6f8;
+  color: #d8d8d8;
   background: url(./Images/divine.jpg);
   background-size: cover;
   background-position: center;
@@ -90,7 +90,7 @@ rainbow animation
     display: inline-block; }
   .guidance .guidance-title {
     width: 100%;
-    color: #f5f6f8;
+    color: #d8d8d8;
     font-size: 22px;
     text-align: center;
     padding: 40px 0; }
@@ -169,6 +169,10 @@ rainbow animation
   .landing-container .crown {
     background: url(./Images/crownGalaxy.png); }
 
+.animate {
+  position: fixed;
+  z-index: 50; }
+
 /************
 rainbow animation
 ************/
@@ -183,9 +187,9 @@ Everything
   landing-page link
   *****************/ }
   .nav-container .chakras {
-    padding: 10px 0px;
+    padding: 20px 0px;
     margin: 0;
-    color: white;
+    color: #d8d8d8;
     font-size: 12px;
     font-weight: 700;
     text-align: center;
@@ -195,14 +199,14 @@ Everything
   .nav-container .chakra-links {
     box-sizing: border-box;
     padding: 10px;
-    padding-right: 35px;
-    padding-left: 35px;
+    padding-right: 55px;
+    padding-left: 55px;
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
     justify-content: space-between;
     height: 100%;
-    background: #f5f6f8; }
+    background: #d8d8d8; }
     .nav-container .chakra-links img {
       width: 100px; }
     .nav-container .chakra-links img:hover {
@@ -212,7 +216,7 @@ Everything
     .nav-container .landing-link h1 {
       padding: 10px 0px;
       margin: 0;
-      color: white;
+      color: #d8d8d8;
       font-size: 12px;
       text-align: center;
       background: black;
@@ -264,7 +268,8 @@ rainbow animation
     background-attachment: fixed;
     height: 57vh;
     width: 100%;
-    padding-top: 30px; }
+    padding-top: 30px;
+    color: linear-gradient(135deg, red, blue); }
   .chakra-container .crown-symptoms {
     background: url(./Images/symptomsCrown.jpg);
     background-size: cover;
@@ -385,7 +390,7 @@ rainbow animation
 rainbow animation
 ************/
 .throat-gradient {
-  background: linear-gradient(270deg, #00070a, #00161f, #012735, #02374b, #02374b, #012735, #00161f, #00070a);
+  background: linear-gradient(270deg, #00070a, #00161f, #012735, #02374b, #02374b, #02374b, #012735, #00161f, #00070a);
   background-size: 1600% 1600%;
   -webkit-animation: heart 30s ease infinite;
   -moz-animation: heart 30s ease infinite;
@@ -426,7 +431,7 @@ rainbow animation
     background: rgba(6, 167, 225, 0.4); }
 
 .throat-guidance .guidance-title {
-  background: linear-gradient(270deg, #00070a, #00161f, #012735, #02374b, #02374b, #012735, #00161f, #00070a);
+  background: linear-gradient(270deg, #00070a, #00161f, #012735, #02374b, #02374b, #02374b, #012735, #00161f, #00070a);
   background-size: 1600% 1600%;
   -webkit-animation: heart 30s ease infinite;
   -moz-animation: heart 30s ease infinite;
@@ -536,7 +541,7 @@ rainbow animation
 rainbow animation
 ************/
 .solar-gradient {
-  background: linear-gradient(270deg, #120f00, #2c2500, #5f5209, #5f5209, #2c2500, #120f00);
+  background: linear-gradient(270deg, #2c2500, #5f5209, #D3A600, #D3A600, #5f5209, #2c2500);
   background-size: 1200% 1200%;
   -webkit-animation: solar 30s ease infinite;
   -moz-animation: solar 30s ease infinite;
@@ -578,7 +583,7 @@ rainbow animation
     background: rgba(223, 191, 22, 0.4); }
 
 .solar-guidance .guidance-title {
-  background: linear-gradient(270deg, #120f00, #2c2500, #5f5209, #5f5209, #2c2500, #120f00);
+  background: linear-gradient(270deg, #2c2500, #5f5209, #D3A600, #D3A600, #5f5209, #2c2500);
   background-size: 1200% 1200%;
   -webkit-animation: solar 30s ease infinite;
   -moz-animation: solar 30s ease infinite;
@@ -758,6 +763,14 @@ rainbow animation
     background-position: 100% 50%; }
   100% {
     background-position: 0% 50%; } }
+
+p {
+  font-family: 'Courgette';
+  font-size: 72px;
+  font-weight: 700;
+  padding: 70px 0 0 205px;
+  position: relative;
+  z-index: 10; }
 
 .app-container {
   font-family: "Josefin Sans", sans-serif; }

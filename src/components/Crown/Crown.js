@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import Description from '../Shared/Description';
 import Symptoms from '../Shared/Symptoms';
 import Guidance from '../Shared/Guidance';
+import MainInfo from '../Shared/MainInfo';
 
 class Crown extends Component {
     render() {
@@ -27,7 +28,9 @@ class Crown extends Component {
         return (
             <div className='chakra-container'>
 
-                <section className='home-title'></section>
+                <section className='home-title'>
+                    <MainInfo main='Crown' />
+                </section>
                 <div className='crown-gradient'>
                     <Description 
                         subtitle='sahasrara'

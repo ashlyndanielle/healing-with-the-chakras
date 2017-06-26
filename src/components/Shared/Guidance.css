@@ -2,7 +2,7 @@
 rainbow animation
 ************/
 .guidance {
-  color: #f5f6f8;
+  color: #d8d8d8;
   background: url(./Images/divine.jpg);
   background-size: cover;
   background-position: center;
@@ -14,7 +14,7 @@ rainbow animation
     display: inline-block; }
   .guidance .guidance-title {
     width: 100%;
-    color: #f5f6f8;
+    color: #d8d8d8;
     font-size: 22px;
     text-align: center;
     padding: 40px 0; }
